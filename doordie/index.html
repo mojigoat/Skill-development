@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Login V4</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" type="text/css" href="fonts/iconic/css/material-design-iconic-font.min.css">
+
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+
+	<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+
+	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/card.css">
+
+</head>
+<body>
+	
+	<div class="limiter">
+		<div class="container-login100" style="background-image: url('images/background.png');">
+			<div class="wrap-login100 p-l-55 p-r-55 p-t-10 p-b-40">
+
+				<div id="popDiv" class="ontop">
+					<div id="popup" class="wrap-login100">
+						<div class="wheel-wrapper wheel-wrapper-maxwidth">
+							<div class="wheel-container">
+								<canvas id="wheel"></canvas>
+								<button id="spin-btn">Spin</button>
+								<img src="images/arrow.svg" class="arrow" alt="spinner-arrow" />
+							  </div>
+							  <div id="final-value">
+								<p>Click On The Spin Button To Start</p>
+							  </div>
+
+							<!-- Chart JS -->
+							<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+							<!-- Chart JS Plugin for displaying text over chart -->
+							<script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/2.1.0/chartjs-plugin-datalabels.min.js"></script>
+						</div>
+					</div>
+				</div>
+
+				<form class="login100-form validate-form">
+
+					
+					
+					<div class="logo-container p-t-25 p-b-5">
+						<img class="logo-img" src="images/dod-full-logo.png" />
+					</div>	
+					<div class="txt1 text-center p-t-10 p-b-10">
+						<span>
+							Read the <strong><a href="#">rulebook</a></strong>.
+						</span>
+					</div>
+					<div class="card__holder p-b-40">
+						<div class="action_card">
+							<div class="action_card__inner">
+								<div class="action_card__face action_card__face--front">
+									<img class="logo-img-card" src="images/glass.png" />
+								</div>
+								<div class="action_card__face action_card__face--back">
+									<div class="action_card__content">
+										<div class="action_card__header">
+											<h2>Name</h2>
+										</div>
+										<div class="action_card__body">
+											<p>Go outside and pick exactly 23 blades of grass with your teeth. Anything less or more, draw a forfeit.</p>
+										</div> 
+										<div class="action_card__footer">
+											<div class="wrap-login100-form-btn wrap-login100-form-btn-left50">
+												<div class="login100-form-bgbtn black-greengrey"></div>
+												<button class="login100-form-btn" onClick="pop('popDiv')">
+													Forfeit
+												</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- <div class="forfeit_card">
+							<div class="forfeit_card__inner">
+								<div class="forfeit_card__face forfeit_card__face--front">
+									<h2>Card Front</h2>
+								</div>
+								<div class="forfeit_card__face forfeit_card__face--back">
+									<div class="forfeit_card__content">
+										<div class="forfeit_card__header">
+											<img src="images/bg-01.jpg" class="pp" />
+											<h2>Tyler Potts</h2>
+										</div>
+										<div class="forfeit_card__body">
+											<h3>JavaScript Wizard</h3>
+											<p>Lorem ipsum <strong>dolor</strong> sit amet, consectetur <strong>adipiscing</strong> elit. Sed id erat a magna lobortis dictum. Nunc est arcu, <strong>lacinia</strong> quis sapien placerat, <strong>laoreet</strong> tincidunt nulla.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div> -->
+					</div>
+					
+
+					<!-- <div class="wrap-input100 validate-input m-b-23" data-validate = "Username is reauired">
+						<span class="label-input100">Username</span>
+						<input class="input100" type="text" name="username" placeholder="Type your username">
+						<span class="focus-input100" data-symbol="&#xf206;"></span>
+					</div>
+
+					<div class="wrap-input100 validate-input" data-validate="Password is required">
+						<span class="label-input100">Password</span>
+						<input class="input100" type="password" name="pass" placeholder="Type your password">
+						<span class="focus-input100" data-symbol="&#xf190;"></span>
+					</div>
+					
+					<div class="text-right p-t-8 p-b-31">
+						<a href="#">
+							Forgot password?
+						</a>
+					</div> -->
+					
+					<div class="container-login100-form-btn">
+						<div class="wrap-login100-form-btn">
+							<div class="login100-form-bgbtn green-lemon"></div>
+							<button class="login100-form-btn">
+								Start Game
+							</button>
+						</div>
+					</div>
+
+					
+
+					<!-- <div class="flex-c-m">
+						<a href="#" class="login100-social-item bg1">
+							<i class="fa fa-facebook"></i>
+						</a>
+
+						<a href="#" class="login100-social-item bg2">
+							<i class="fa fa-twitter"></i>
+						</a>
+
+						<a href="#" class="login100-social-item bg3">
+							<i class="fa fa-google"></i>
+						</a>
+					</div> -->
+
+					
+				</form>
+			</div>
+		</div>
+	</div>
+	
+
+	<div id="dropDownSelect1"></div>
+	
+	<script src="js/card.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/animsition/js/animsition.min.js"> </script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/daterangepicker/moment.min.js"></script>
+	<script src="vendor/daterangepicker/daterangepicker.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/countdowntime/countdowntime.js"></script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+
+</body>
+</html>
