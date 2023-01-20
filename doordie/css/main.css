@@ -506,110 +506,65 @@ iframe {
   }
 } 
 
-.ontop {
-  z-index: 9999;
-  width: 100%;
-  height: 100%;
+/* Overlay Styles */
+.overlay {
+  background: rgba(0, 0, 0, 0.8);
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 100;
+}
+
+/* Popup */
+.popup {
+  background: white;
+  position: absolute;
   top: 0;
   left: 0;
-  display: none;
+  bottom: 0;
+  right: 0;
+  z-index: 101;
+  width: 500px; /*Change your width here*/
+  height: 200px; /*Change your height here*/
+  margin: auto;
+
+  @media (max-width: 768px) {
+    width: 90%;
+    margin: auto 5%;
+  }
+}
+
+  /* Popup Inner */
+  .popup-inner {
+    position: relative;
+    padding: 1em;    
+  } 
+
+input.s3-btn-close {
   position: absolute;
-  background-color: #cccccca6;
-  color: #aaaaaa;
-}
-
-.popup-window {
-  width: 500px;
-  background: #ffffff;
-  border-radius: 10px;
-  overflow: hidden;
-}
-
-/* For Mobile */
-@media screen and (max-width: 540px) {
-  .wheel-wrapper-maxwidth {
-    max-width: 90%;
-  }
-}
-
-/* For Tablets */
-@media screen and (min-width: 540px) and (max-width: 900px) {
-  .wheel-wrapper-maxwidth  {
-    max-width: 90%;
-  }
-}
-
-/* For Tablets */
-@media screen and (min-width: 900px)  {
-  .wheel-wrapper-maxwidth  {
-    max-width: 38%;
-  }
-}
-
-.wheel-wrapper {
-  width: 90%;
-  max-height: 90vh;
-  background-color: #ffffff;
-  position: absolute;
-  transform: translate(-50%, -50%);
-  top: 50%;
-  left: 50%;
-  padding: 3em;
-  border-radius: 1em;
-  box-shadow: 0 4em 5em rgba(27, 8, 53, 0.2);
-}
-
-.wheel-container {
-  position: relative;
-  width: 100%;
-  height: 100%;
-}
-#wheel {
-  max-height: inherit;
-  width: inherit;
-  top: 0;
-  padding: 0;
-}
-@keyframes rotate {
-  100% {
-    transform: rotate(360deg);
-  }
-}
-#spin-btn {
-  position: absolute;
-  transform: translate(-50%, -50%);
-  top: 50%;
-  left: 50%;
-  height: 26%;
-  width: 26%;
-  border-radius: 50%;
+  top: -0.5em;
+  right: -0.5em;
+  width: 5%;
+  background: black;
+  border: solid 2px white;
+  color: white;
   cursor: pointer;
-  border: 0;
-  background: radial-gradient(#B8C776 50%, #888f6c 85%);
-  color: #ffffff;
-  text-transform: uppercase;
-  font-size: 1.3em;
-  letter-spacing: 0.1em;
-  font-weight: 600;
+
+  border-radius: 15px;
+
+  outline: none;
+} 
+/*************
+  S3 Button
+*************/
+input.s3-btn {
+  
 }
-.arrow {
-  position: absolute;
-  width: 6em;
-  top: 42%;
-  right: -7%;
-}
-#final-value {
-  font-size: 1.5em;
+
+.s3-center {
   text-align: center;
-  margin-top: 1.5em;
-  color: #202020;
-  font-weight: 500;
-}
-@media screen and (max-width: 768px) {
-  .wrapper {
-    font-size: 12px;
-  }
-  img {
-    right: -5%;
-  }
 }
