@@ -65,8 +65,6 @@
 												<button type="button" class="forfeitcardbtn login100-form-btn" name="Open" onclick="popupOpen();">
 													Forfeit
 												</button>
-												<!-- Popup Button -->
- 												<!-- <input type="button" class="login100-form-btn s3-btn" name="Open" onclick="popupOpen();"  value="forfeit"> -->
 											</div>
 										</div>
 									</div>
@@ -81,7 +79,10 @@
 						<div class="wrap-login100-form-btn">
 							<div class="login100-form-bgbtn green-lemon"></div>
 							<button type="button" class="flipcardbtn login100-form-btn">Draw a card</button>
-							<button type="button" class="flipcardbtn login100-form-btn">End Turn</button>
+						</div>
+						<div class="wrap-login100-form-btn">
+							<div class="login100-form-bgbtn green-lemon"></div>
+							<button type="button" class="endturnbtn login100-form-btn" disabled>End Turn</button>
 						</div>
 					</div>
 
@@ -94,12 +95,24 @@
 
 				<!-- Popup -->
 				<div class="popup" id="popup" style="display:none;">
-				<div class="popup-inner">
-					<input type="button" name="Close" class="s3-btn-close" onclick="popupClose();" value="&times;">
-					
-					<h2>This is popup</h2>
-					<p>Hey I am a popup overlay working with JavaScript</p>
-				</div>
+					<div class="popup-inner">
+						<div class="forfeitbanner-container">
+							<img class="forfeitbanner" src="images/forfeit-banner.png" />
+						</div>
+						<div class="forfeitcounter-container">
+							<img class="forfeitcounter" src="images/animation/2x.gif" />
+						</div>
+						<div class="forfeit-text-container">
+							<h1 class="forfeit-text">Stroh Rum</h1>
+						</div>
+						
+						<div class="container-login100-form-btn">
+							<div class="wrap-login100-form-btn">
+								<div class="login100-form-bgbtn green-lemon"></div>
+								<button type="button" class="forfeitendturnbtn login100-form-btn">End Turn</button>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>

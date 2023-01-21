@@ -315,7 +315,7 @@ iframe {
 }
 
 .wrap-login100-form-btn {
-  width: 100%;
+  width: 45%;
   display: block;
   position: relative;
   z-index: 1;
@@ -331,7 +331,7 @@ iframe {
 }
 
 .wrap-login100-form-btn-left50{
-  left:50%;
+ 
   bottom: 0;
 }
 
@@ -397,6 +397,12 @@ iframe {
   padding: 0 20px;
   width: 100%;
   height: 50px;
+}
+
+.login100-form-btn:disabled,
+.login100-form-btn[disabled]{
+  background-color: #cccccc;
+  color: #666666;
 }
 
 .wrap-login100-form-btn:hover .login100-form-bgbtn {
@@ -519,8 +525,81 @@ iframe {
   z-index: 100;
 }
 
+.forfeitbanner-container{
+  width: 100%;
+  height: 150px;
+  margin-bottom: 20px;
+}
+
+.forfeitbanner{
+  width: 100%;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.forfeitcounter-container{
+  height: 150px;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.forfeitcounter{
+  margin: 0;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  animation: fadeIn 2s;
+}
+
+.forfeit-text{
+  text-align: center;
+  font-family: AvertaItalic;
+  font-size: 50px;
+  animation: flicker 3s;
+  
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes flicker {
+  0% { opacity: 0; }
+  2% { opacity: 1; }
+  4% { opacity: 0; }
+  6% { opacity: 1; }
+  7% { opacity: 0; }
+  8% { opacity: 1; }
+  9% { opacity: 0; }
+  10% { opacity: 1; }
+  15% { opacity: 0; }
+  20% { opacity: 1; }
+  22% { opacity: 0; }
+  24% { opacity: 1; }
+  30% { opacity: 0; }
+  50% { opacity: 1; }
+  55% { opacity: 0; }
+  60% { opacity: 1; }
+  80% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@font-face {
+  font-family: "AvertaItalic";
+  src: url("../fonts/AvertaItalic.ttf");
+}
+
+.forfeit-text-container {
+  margin-bottom: 75px;
+}
+
 /* Popup */
 .popup {
+  border-radius: 20px;
   background: white;
   position: absolute;
   top: 0;
@@ -528,8 +607,8 @@ iframe {
   bottom: 0;
   right: 0;
   z-index: 101;
-  width: 500px; /*Change your width here*/
-  height: 200px; /*Change your height here*/
+  width: 25%; /*Change your width here*/
+  height: 60%; /*Change your height here*/
   margin: auto;
 
   @media (max-width: 768px) {
@@ -541,7 +620,9 @@ iframe {
   /* Popup Inner */
   .popup-inner {
     position: relative;
-    padding: 1em;    
+    /* padding: 1em;     */
+    height: 100%;
+    border-radius: 25px;
   } 
 
 input.s3-btn-close {
@@ -558,12 +639,7 @@ input.s3-btn-close {
 
   outline: none;
 } 
-/*************
-  S3 Button
-*************/
-input.s3-btn {
-  
-}
+
 
 .s3-center {
   text-align: center;

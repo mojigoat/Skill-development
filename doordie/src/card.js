@@ -1,17 +1,27 @@
+// const { popupClose } = require("./main");
+
 const actionCard = document.querySelector(".action_card__inner");
 const actionFlipbtn = document.querySelector(".flipcardbtn")
 const forfeitCard = document.querySelector(".forfeitcardbtn");
-
+const endturnbtn = document.querySelector(".endturnbtn");
+const forfeitendturnbtn = document.querySelector(".forfeitendturnbtn");
 
 actionFlipbtn.addEventListener("click", function (e) {
     actionCard.classList.toggle('is-flipped');
+    endturnbtn.removeAttribute('disabled');
+    actionFlipbtn.setAttribute("disabled", "disabled");
 });
 
-forfeitCard.addEventListener("click", function (e) {
+endturnbtn.addEventListener("click", function (e) {
     actionCard.classList.toggle('is-flipped');
+    endturnbtn.setAttribute("disabled", "disabled");
+    actionFlipbtn.removeAttribute('disabled');
 });
 
-
-// forfeitCard.addEventListener("click", function (e) {
-//     forfeitCard.classList.toggle('is-flipped');
-// });
+forfeitendturnbtn.addEventListener("click", function (e) {
+    actionCard.classList.toggle('is-flipped');
+    endturnbtn.setAttribute("disabled", "disabled");
+    actionFlipbtn.removeAttribute('disabled');
+    
+    popupClose();
+});
