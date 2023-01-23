@@ -2,7 +2,7 @@ const { MongoClient } = require('mongodb');
 const url = 'mongodb+srv://zypherr:doctorslater@cluster0.axc2a.mongodb.net/?retryWrites=true&w=majority';
 
 const connectionGroup = {
-    client : new MongoClient(url),
+    client : new MongoClient(url, { useUnifiedTopology: true }),
     database : 'dod_db'
 };
 
@@ -14,3 +14,6 @@ async function openConnection() {
 
 exports.connectionGroup = connectionGroup;
 exports.openConnection = openConnection;
+
+
+

@@ -1,4 +1,4 @@
-// const { popupClose } = require("./main");
+const { GetRandomAction } = require('/mdb/mongodb.calls');
 
 const actionCard = document.querySelector(".action_card__inner");
 const actionFlipbtn = document.querySelector(".flipcardbtn")
@@ -10,6 +10,7 @@ actionFlipbtn.addEventListener("click", function (e) {
     actionCard.classList.toggle('is-flipped');
     endturnbtn.removeAttribute('disabled');
     actionFlipbtn.setAttribute("disabled", "disabled");
+    GetRandomAction();
 });
 
 endturnbtn.addEventListener("click", function (e) {
