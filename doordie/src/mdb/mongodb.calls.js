@@ -1,5 +1,5 @@
-// const { openConnection, connectionGroup } = require("./mongodb.connection");
-import { openConnection, connectionGroup } from "./mongodb.connection";
+const { openConnection, connectionGroup } = require("./mongodb.connection");
+// import { openConnection, connectionGroup } from "./mongodb.connection";
 
 
 async function getCollection(collectionName) {
@@ -13,6 +13,7 @@ async function getCollection(collectionName) {
     await cursor.forEach(console.log);
     return 'done.';
 }
+
 
 //## Close connection for getCollection
 // getCollection()
