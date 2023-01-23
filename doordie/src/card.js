@@ -1,4 +1,5 @@
-const { GetRandomAction } = require('/mdb/mongodb.calls');
+// const { GetRandomAction } = require('/mdb/mongodb.calls');
+import { GetRandomAction } from '/mdb/mongodb.calls';
 
 const actionCard = document.querySelector(".action_card__inner");
 const actionFlipbtn = document.querySelector(".flipcardbtn")

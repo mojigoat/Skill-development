@@ -1,4 +1,5 @@
-const { openConnection, connectionGroup } = require("./mongodb.connection");
+// const { openConnection, connectionGroup } = require("./mongodb.connection");
+import { openConnection, connectionGroup } from "./mongodb.connection";
 
 
 async function getCollection(collectionName) {
