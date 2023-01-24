@@ -1,0 +1,90 @@
+import { StyleSheet, Text, View, Image } from 'react-native';
+
+export default function App() {
+  return (
+    <View style={styles.container}>
+      <View style={styles.logoContainer}>
+        <Image
+          source={{ uri: 'images/dod-full-logo.png' }}
+          style={styles.logoImg}
+        />
+      </View>
+      <View style={styles.txt1}>
+        <Text>
+          Read the <Text style={styles.strong}>
+            <Text style={styles.rulebook} onPress={() => Linking.openURL('#')}>rulebook</Text>
+          </Text>
+        </Text>
+      </View>
+      <View style={styles.cardHolder}>
+        <View style={styles.actionCard}>
+          <View style={styles.actionCardInner}>
+            <View style={styles.actionCardFront}>
+              <Image
+                source={{ uri: 'images/glass.png' }}
+                style={styles.logoImgCard}
+              />
+            </View>
+            <View style={styles.actionCardBack}>
+              <View style={styles.actionCardContent}>
+                <View style={styles.actionCardHeader}>
+                  <Text style={styles.h2}>Name</Text>
+                </View>
+                <View style={styles.actionCardBody}>
+                  <Text>{/* Content */}</Text>
+                </View>
+                <View style={styles.actionCardFooter}>
+                  {/* Footer */}
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  );
+}
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#fff',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  logoContainer: {
+    paddingTop: 25,
+    paddingBottom: 5,
+  },
+  logoImg: {
+    width: 100,
+    height: 100,
+  },
+  txt1: {
+    textAlign: 'center',
+    paddingTop: 10,
+    paddingBottom: 10,
+  },
+  strong: {
+    fontWeight: 'bold',
+  },
+  rulebook: {
+    color: 'blue',
+    textDecorationLine: 'underline',
+  },
+  cardHolder: {
+    paddingBottom: 40,
+  },
+  actionCard: {
+    // Styles
+  },
+  actionCardInner: {
+    // Styles
+  },
+  actionCardFront: {
+    // Styles
+  },
+  logoImgCard: {
+    // Styles
+  },
+  actionCard
