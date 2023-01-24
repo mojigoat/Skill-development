@@ -1,10 +1,3 @@
-
-
-
-
-/*//////////////////////////////////////////////////////////////////
-[ FONT ]*/
-
 @font-face {
   font-family: Poppins-Regular;
   src: url('../fonts/poppins/Poppins-Regular.ttf'); 
@@ -26,11 +19,6 @@
 }
 
 
-
-
-/*//////////////////////////////////////////////////////////////////
-[ RESTYLE TAG ]*/
-
 * {
 	margin: 0px; 
 	padding: 0px; 
@@ -42,7 +30,6 @@ body, html {
 	font-family: Poppins-Regular, sans-serif;
 }
 
-/*---------------------------------------------*/
 a {
 	font-family: Poppins-Regular;
 	font-size: 14px;
@@ -64,7 +51,7 @@ a:hover {
   color: #a64bf4;
 }
 
-/*---------------------------------------------*/
+
 h1,h2,h3,h4,h5,h6 {
 	margin: 0px;
 }
@@ -83,7 +70,6 @@ ul, li {
 }
 
 
-/*---------------------------------------------*/
 input {
 	outline: none;
 	border: none;
@@ -118,7 +104,6 @@ textarea:-moz-placeholder { color: #adadad;}
 textarea::-moz-placeholder { color: #adadad;}
 textarea:-ms-input-placeholder { color: #adadad;}
 
-/*---------------------------------------------*/
 button {
 	outline: none !important;
 	border: none;
@@ -133,8 +118,6 @@ iframe {
 	border: none !important;
 }
 
-/*//////////////////////////////////////////////////////////////////
-[ Utility ]*/
 .txt1 {
   font-family: Poppins-Regular;
   font-size: 14px;
@@ -156,8 +139,7 @@ iframe {
 
 
 
-/*//////////////////////////////////////////////////////////////////
-[ login ]*/
+
 .limiter {
   width: 100%;
   margin: 0 auto;
@@ -188,8 +170,6 @@ iframe {
 }
 
 
-/*------------------------------------------------------------------
-[ Form ]*/
 
 .login100-form {
   width: 100%;
@@ -206,8 +186,6 @@ iframe {
 
 
 
-/*------------------------------------------------------------------
-[ Input ]*/
 
 .wrap-input100 {
   width: 100%;
@@ -237,7 +215,6 @@ iframe {
 }
 
 
-/*---------------------------------------------*/
 .focus-input100 {
   position: absolute;
   display: block;
@@ -302,8 +279,6 @@ iframe {
 }
 
 
-/*------------------------------------------------------------------
-[ Button ]*/
 .container-login100-form-btn {
   display: -webkit-box;
   display: -webkit-flex;
@@ -410,76 +385,7 @@ iframe {
 }
 
 
-/*------------------------------------------------------------------
-[ Alert validate ]*/
 
-.validate-input {
-  position: relative;
-}
-
-.alert-validate::before {
-  content: attr(data-validate);
-  position: absolute;
-  max-width: 70%;
-  background-color: #fff;
-  border: 1px solid #c80000;
-  border-radius: 2px;
-  padding: 4px 25px 4px 10px;
-  bottom: calc((100% - 20px) / 2);
-  -webkit-transform: translateY(50%);
-  -moz-transform: translateY(50%);
-  -ms-transform: translateY(50%);
-  -o-transform: translateY(50%);
-  transform: translateY(50%);
-  right: 2px;
-  pointer-events: none;
-
-  font-family: Poppins-Regular;
-  color: #c80000;
-  font-size: 13px;
-  line-height: 1.4;
-  text-align: left;
-
-  visibility: hidden;
-  opacity: 0;
-
-  -webkit-transition: opacity 0.4s;
-  -o-transition: opacity 0.4s;
-  -moz-transition: opacity 0.4s;
-  transition: opacity 0.4s;
-}
-
-.alert-validate::after {
-  content: "\f06a";
-  font-family: FontAwesome;
-  display: block;
-  position: absolute;
-  color: #c80000;
-  font-size: 16px;
-  bottom: calc((100% - 20px) / 2);
-  -webkit-transform: translateY(50%);
-  -moz-transform: translateY(50%);
-  -ms-transform: translateY(50%);
-  -o-transform: translateY(50%);
-  transform: translateY(50%);
-  right: 8px;
-}
-
-.alert-validate:hover:before {
-  visibility: visible;
-  opacity: 1;
-}
-
-@media (max-width: 992px) {
-  .alert-validate::before {
-    visibility: visible;
-    opacity: 1;
-  }
-}
-
-
-/*//////////////////////////////////////////////////////////////////
-[ Social item ]*/
 .login100-social-item {
   font-size: 25px;
   color: #fff;
@@ -502,8 +408,7 @@ iframe {
   background-color: #333333;
 }
 
-/*//////////////////////////////////////////////////////////////////
-[ Responsive ]*/
+
 
 @media (max-width: 576px) {
   .wrap-login100 {
@@ -512,7 +417,7 @@ iframe {
   }
 } 
 
-/* Overlay Styles */
+
 .overlay {
   background: rgba(0, 0, 0, 0.8);
   opacity: 0.8;
@@ -597,7 +502,7 @@ iframe {
   margin-bottom: 75px;
 }
 
-/* Popup */
+
 .popup {
   border-radius: 20px;
   background: white;
@@ -607,8 +512,8 @@ iframe {
   bottom: 0;
   right: 0;
   z-index: 101;
-  width: 25%; /*Change your width here*/
-  height: 60%; /*Change your height here*/
+  width: 25%; 
+  height: 60%; 
   margin: auto;
 
   @media (max-width: 768px) {
@@ -617,10 +522,8 @@ iframe {
   }
 }
 
-  /* Popup Inner */
   .popup-inner {
     position: relative;
-    /* padding: 1em;     */
     height: 100%;
     border-radius: 25px;
   } 
