@@ -48,9 +48,16 @@ app.get('/', (req, res) => {
 // });
 
 // get the click data from the database
-app.get('/task', (req, res) => {
+app.get('/task/random', (req, res) => {
     db.collection('tb_action_tasks').aggregate([{ $sample: { size: 1 } }]).toArray((err, result) => {
       if (err) return console.log(err);
       res.send(result[0]);
     });
   });
+
+app.get('/forfeit/random', (req, res) => {
+    db.collection('tb_forfeit_drinks').aggregate([{ $sample: { size: 1 } }]).toArray((err, result) => {
+        if (err) return console.log(err);
+        res.send(result[0]);
+    });
+});
