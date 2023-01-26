@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Do or Dare</title>
+
+	<link rel="stylesheet" type="text/css" href="./assets/styles/main.css">
+	<link rel="stylesheet" type="text/css" href="./assets/styles/card.css">
+
+  </head>
+  <body>
+    <!-- <h1>Node + Express + MongoDb example</h1>
+    <p id="counter">Loading button click data.</p>
+    <button id="myButton">Click me!</button> -->
+
+    <div class="limiter">
+		<div class="container-login100" style="background-image: url('./assets/images/background.png');">
+			<div class="wrap-login100 p-l-55 p-r-55 p-t-10 p-b-40">
+
+                <!-- #CARD PLATFORM -->
+				<form class="login100-form validate-form">
+					<div class="logo-container p-t-25 p-b-5">
+						<img class="logo-img" src="./assets/images/dod-full-logo.png" />
+					</div>	
+					<div class="txt1 text-center p-t-10 p-b-10">
+						<span>
+							Read the <strong><a href="#">rulebook</a></strong>.
+						</span>
+					</div>
+					<div class="card__holder p-b-40">
+						<div class="action_card">
+							<div class="action_card__inner">
+								<div class="action_card__face action_card__face--front">
+									<img class="logo-img-card" src="./assets/images/glass.png" />
+								</div>
+								<div class="action_card__face action_card__face--back">
+									<div class="action_card__content">
+										<div class="action_card__header">
+											<h2>Name</h2>
+										</div>
+										<div class="action_card__body">
+											<p id="actionTask"></p>
+										</div> 
+										<div class="action_card__footer">
+											<div class="wrap-login100-form-btn wrap-login100-form-btn-left50">
+												<div class="login100-form-bgbtn black-greengrey"></div>
+												<button type="button" class="forfeitcardbtn login100-form-btn" name="Open" onclick="popupOpen();">
+													Forfeit
+												</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>		
+					<div class="container-login100-form-btn">
+						<div class="wrap-login100-form-btn">
+							<div class="login100-form-bgbtn green-lemon"></div>
+							<button type="button" class="flipcardbtn login100-form-btn">Draw a card</button>
+						</div>
+						<div class="wrap-login100-form-btn">
+							<div class="login100-form-bgbtn green-lemon"></div>
+							<button type="button" class="endturnbtn login100-form-btn" disabled>End Turn</button>
+						</div>
+					</div>
+				</form>
+
+				<div class="overlay" id="overlay" style="display:none;"></div>
+
+				<div class="popup" id="popup" style="display:none;">
+					<div class="popup-inner">
+						<div class="forfeitbanner-container">
+							<img class="forfeitbanner" src="./assets/images/forfeit-banner.png" />
+						</div>
+						<div class="forfeitcounter-container">
+							<img class="forfeitcounter" src="./assets/images/animations/2x.gif" />
+						</div>
+						<div class="forfeit-text-container">
+							<h1 class="forfeit-text">Stroh Rum</h1>
+						</div>
+						<div class="container-login100-form-btn">
+							<div class="wrap-login100-form-btn">
+								<div class="login100-form-bgbtn green-lemon"></div>
+								<button type="button" class="forfeitendturnbtn login100-form-btn">End Turn</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+  </body>
+
+  <script src="./scripts/client.js"></script>
+  <script src="./scripts/card.action.js"></script>
+  <script src="./scripts/main.js"></script>
+  
+</html>
