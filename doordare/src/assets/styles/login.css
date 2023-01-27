@@ -37,7 +37,7 @@ input{
 	outline: none;
 	border-radius: 5px;
 }
-button{
+.login-formbtn {
 	width: 60%;
 	height: 40px;
 	margin: 10px auto;
@@ -54,7 +54,7 @@ button{
 	transition: .2s ease-in;
 	cursor: pointer;
 }
-button:hover{
+login-formbtn:hover{
 	background: #c3bd80;
 }
 .login{

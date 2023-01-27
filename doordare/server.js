@@ -1,10 +1,14 @@
 console.log('Server-side code running');
 
+const bcrypt = require('bcrypt');
 const express = require('express');
 const MongoClient = require('mongodb').MongoClient;
+
 const app = express();
 
 app.use(express.static('src'));
+app.use(express.json()); // for parsing application/json
+app.use(express.urlencoded({ extended: true })); // for parsing application/x-www-form-urlencoded
 
 const url = "mongodb+srv://zypherr:doctorslater@cluster0.axc2a.mongodb.net/?retryWrites=true&w=majority";
 const client = new MongoClient(url, { useNewUrlParser: true });
@@ -62,6 +66,22 @@ app.get('/forfeit/random', (req, res) => {
     });
 });
 
-app.post('/login', (req, res) => {
+app.post('/login', async (req, res) => {
+  const { username, password } = req.body;
+  // Find the user by username
+  const user = await db.collection('tb_users').findOne({ user_username: username });
+  if (!user) {
+    console.log('Incorrect login: username not found');
+    return res.status(401).json({ message: 'Incorrect login' });
+  }
+  // Compare the input password with the hashed password in the database
+  console.log(password);
+  console.log(user.user_password);
   
+  if (password != user.user_password) {
+    console.log('Incorrect login: incorrect password');
+    return res.status(401).json({ message: 'Incorrect login' });
+  }
+  console.log('Correct login');
+  return res.status(200).json({ message: 'Logged in' });
 });

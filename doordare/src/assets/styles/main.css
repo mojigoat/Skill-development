@@ -183,6 +183,14 @@ button:hover {
   overflow: hidden;
 }
 
+.cardformnone{
+  display: none;
+}
+
+.loginformblock{
+  display: flex;
+}
+
 .login100-form {
   width: 100%;
 }
