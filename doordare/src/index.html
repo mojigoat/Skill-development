@@ -8,16 +8,19 @@
 
 	<link rel="stylesheet" type="text/css" href="./assets/styles/main.css">
 	<link rel="stylesheet" type="text/css" href="./assets/styles/card.css">
+	<link rel="stylesheet" type="text/css" href="./assets/styles/login.css">
+
+	<link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap" rel="stylesheet">
 
   </head>
   <body>
     <!-- <h1>Node + Express + MongoDb example</h1>
     <p id="counter">Loading button click data.</p>
     <button id="myButton">Click me!</button> -->
-
+	
     <div class="limiter">
 		<div class="container-login100" style="background-image: url('./assets/images/background.png');">
-			<div class="wrap-login100 p-l-55 p-r-55 p-t-10 p-b-40">
+			<div class="wrap-login100 p-l-55 p-r-55 p-t-10 p-b-40" style="display: none;">
 
                 <!-- #CARD PLATFORM -->
 				<form class="login100-form validate-form">
@@ -92,7 +95,36 @@
 			</div>
 		</div>
 	</div>
-
+	<div class="login-container" style="background-image: url('./assets/images/login-back.png');">
+		<div class="main">  	
+			<input type="checkbox" id="chk" aria-hidden="true">
+	
+				<div class="signup">
+					<form>
+						<label for="chk" aria-hidden="true">Sign up</label>
+						<input type="text" name="txt" placeholder="User name" required="">
+						<input type="email" name="email" placeholder="Email" required="">
+						<input type="password" name="pswd" placeholder="Password" required="">
+						<button>Sign up</button>
+					</form>
+				</div>
+	
+				<div class="login">
+					<form>
+						<label for="chk" aria-hidden="true">Login</label>
+						<input type="email" name="email" placeholder="Email" required="">
+						<input type="password" name="pswd" placeholder="Password" required="">
+						<button>Login</button>
+						<div class="txt1 text-center p-t-10 p-b-10">
+							<span>
+								Login as a <strong><a href="#">Guest</a></strong>.
+							</span>
+						</div>
+					</form>
+				</div>
+		</div>
+	</div>
+	
   </body>
 
   <script src="./scripts/client.js"></script>
