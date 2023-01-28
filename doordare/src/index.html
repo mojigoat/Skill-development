@@ -20,9 +20,9 @@
 	
     <div class="limiter">
 		<div class="container-login100" style="background-image: url('./assets/images/background.png');">
-			<div id="card-form" class="wrap-login100 p-l-55 p-r-55 p-t-10 p-b-40 cardformnone" >
 
-                <!-- #CARD PLATFORM -->
+			<!-- #CARD PLATFORM -->
+			<div id="card-form" class="wrap-login100 p-l-55 p-r-55 p-t-10 p-b-40 cardformnone" >
 				<form class="login100-form validate-form">
 					<div class="logo-container p-t-25 p-b-5">
 						<img class="logo-img" src="./assets/images/dod-full-logo.png" />
@@ -93,15 +93,121 @@
 					</div>
 				</div>
 			</div>
+
+			<!-- #SETTINGS PLATFORM -->
+			<div id="card-form" class="wrap-settings p-l-55 p-r-55 p-t-10 p-b-40" style="display: block;" >
+				<form class="login100-form validate-form">
+					<div class="logo-container p-t-25 p-b-5">
+						<img class="logo-img" src="./assets/images/dod-full-logo.png" />
+					</div>	
+					<div class="txt1 text-center p-t-10 p-b-10">
+						<span>
+							<strong>Select your game settings.</strong>
+						</span>
+					</div>	<br>
+					<div class="settings-container">
+						<div class="playernames txt1 text-center">
+							<span>
+								<strong>Enter each player name:</strong>
+							</span>
+							<input type="email" id="files" name="files" multiple>
+						</div>
+						<div class="gametype">
+							<div class="gametypetext txt1 text-center" style="margin-bottom: 20px;">
+								<span >
+									<strong>Select Game Type:</strong>
+								</span>
+							</div>
+							<div class="section over-hide z-bigger">
+								<input class="checkbox" type="checkbox" name="general" id="general">
+								<div class="background-color"></div>
+								<div class="section over-hide z-bigger">
+									<div class="container pb-5">
+										<div class="row justify-content-center pb-5">
+											<div class="col-xl-10 pb-5">
+												<input class="checkbox-budget" type="radio" name="budget" id="budget-1" checked>
+												<label class="for-checkbox-budget" for="budget-1">
+													<span >Default</span>
+												</label><!--
+												--><input class="checkbox-budget" type="radio" name="budget" id="budget-2">
+												<label class="for-checkbox-budget" for="budget-2">							
+													<span >Custom</span>
+												</label><!--
+												--><input class="checkbox-budget" type="radio" name="budget" id="budget-3">
+												<label class="for-checkbox-budget" for="budget-3">							
+													<span >Overload</span>
+												</label>
+											</div>
+											
+										</div>
+									</div>	
+								</div>
+							</div>
+						</div>
+						<div class="drinkselection txt1 text-center">
+							<span>
+								<strong>Enter your drinks:</strong>
+							</span>
+							<input type="email" id="files" name="files" multiple>
+						</div>
+						<div class="drinkquantity" style="margin-bottom: 20px;">
+							<div class="drinkquantitytext txt1 text-center" style="margin-bottom: 20px;">
+								<span >
+									<strong>Select Maximum Forfeit Quantity:</strong>
+								</span>
+							</div>
+							<div class="section over-hide z-bigger">
+								<input class="checkbox" type="checkbox" name="general" id="general">
+								<div class="background-color"></div>
+								<div class="section over-hide z-bigger">
+									<div class="container pb-5">
+										<div class="row justify-content-center pb-5">
+											<div class="col-xl-10 pb-5">
+												<input class="checkbox-budget" type="radio" name="budget" id="budget-1" checked>
+												<label class="for-checkbox-budget" for="budget-1">
+													<span >1x</span>
+												</label><!--
+												--><input class="checkbox-budget" type="radio" name="budget" id="budget-2">
+												<label class="for-checkbox-budget" for="budget-2">							
+													<span >2x</span>
+												</label><!--
+												--><input class="checkbox-budget" type="radio" name="budget" id="budget-3">
+												<label class="for-checkbox-budget" for="budget-3">							
+													<span >3x</span>
+												</label>
+											</div>
+											
+										</div>
+									</div>	
+								</div>
+							</div>
+						</div>
+						<!-- <div class="cardselection">
+
+						</div> -->
+					</div>
+					<div class="container-login100-form-btn">
+						<div class="wrap-login100-form-btn">
+							<div class="login100-form-bgbtn green-lemon"></div>
+							<button type="button" class="startgamebtn login100-form-btn">Start Game</button>
+						</div>
+					</div>
+				</form>
+
+				
+			</div>
+
 		</div>
 	</div>
-	<div id="login-form" class="login-container loginformblock" style="background-image: url('./assets/images/login-back.png');">
+
+	<!-- #LOGIN FORM -->
+	<div id="login-form" class="login-container loginformblock" style="background-image: url('./assets/images/login-back.png'); display:none;">
 		<div class="main">  	
 			<input type="checkbox" id="chk" aria-hidden="true">
 	
 				<div class="signup">
 					<form>
-						<label for="chk" aria-hidden="true">Sign up</label>
+						<label for="chk" aria-hidden="true" class="label-login">Sign up</label>
 						<input type="text" name="txt" placeholder="User name" required="">
 						<input type="email" name="email" placeholder="Email" required="">
 						<input type="password" name="pswd" placeholder="Password" required="">
@@ -111,7 +217,7 @@
 	
 				<div class="login">
 					<form>
-						<label id="login" for="chk" aria-hidden="true">Login</label>
+						<label id="login" for="chk" aria-hidden="true" class="label-login">Login</label>
 						<input type="username" id="login-username" name="username" placeholder="Username" required="">
 						<input type="password" id="login-pass" name="pswd" placeholder="Password" required="">
 						<button type="button" class="login-formbtn" id="loginbtn">Login</button>

@@ -16,8 +16,7 @@ loginBtn.addEventListener('click', async () => {
   if (response.ok) {
     const json = await response.json();
     console.log(json.message);
-    //login-container none
-    //wrap-login100 block
+
     document.getElementById("login-form").style.display="none";
     document.getElementById("card-form").style.display="block";
 

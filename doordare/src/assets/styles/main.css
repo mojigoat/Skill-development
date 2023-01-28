@@ -183,6 +183,13 @@ button:hover {
   overflow: hidden;
 }
 
+.wrap-settings {
+  width: 500px;
+  background: #fffffff2;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
 .cardformnone{
   display: none;
 }
@@ -301,6 +308,13 @@ button:hover {
 
 @media (max-width: 576px) {
   .wrap-login100 {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+} 
+
+@media (max-width: 576px) {
+  .wrap-settings {
     padding-left: 15px;
     padding-right: 15px;
   }
