@@ -15,6 +15,20 @@ endturnbtn.addEventListener("click", function (e) {
     actionCard.classList.toggle('is-flipped');
     endturnbtn.setAttribute("disabled", "disabled");
     actionFlipbtn.removeAttribute('disabled');
+
+    let h2 = document.querySelector("h2");
+    var storedArray = JSON.parse(sessionStorage.getItem("Players"));
+
+    setTimeout(() => {for (let i = 0; i < storedArray.length; i++) {
+      if (h2.textContent === storedArray[i]) {
+        h2.textContent = storedArray[i + 1] ? storedArray[i + 1] : storedArray[0];
+        if (h2.textContent === storedArray[0]) {
+          increaseRoundNumber();
+        }
+        break;
+      }
+    }}, 1000);
+
 });
 
 forfeitendturnbtn.addEventListener("click", function (e) {
@@ -41,3 +55,15 @@ forfeitbtn.addEventListener("click", function (e){
   }, 150);
     
 });
+
+function increaseRoundNumber() {
+  let roundText = document.getElementById("roundText").innerHTML;
+  console.log(roundText);
+  let roundArr = roundText.split(" ");
+  console.log(roundArr[0] + "-" + roundArr[1]);
+  let roundNo = roundArr[1];
+  roundNo++;
+
+  console.log(roundNo);
+  document.getElementById("roundText").innerHTML = roundArr[0] + roundNo;
+}

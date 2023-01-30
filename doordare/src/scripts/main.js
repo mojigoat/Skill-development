@@ -29,4 +29,43 @@ function resetForfeitText() {
   document.getElementById('forfeit-text').innerHTML = "-";
 }
 
+//GameType enabled/disabled
+const GametypeRadioBtnDefault = document.querySelector('input[id="GametypeRadio-1"]');
+const GametypeRadioBtnCustom = document.querySelector('input[id="GametypeRadio-2"]');
+const GametypeRadioBtnOverload = document.querySelector('input[id="GametypeRadio-3"]');
 
+GametypeRadioBtnDefault.addEventListener('change', function() {
+  document.getElementById("drinkselection").style.display="none";
+  document.getElementById("drinkquantity").style.display="none";
+});
+
+GametypeRadioBtnCustom.addEventListener('change', function() {
+  document.getElementById("drinkselection").style.display="block";
+  document.getElementById("drinkquantity").style.display="block";
+});
+
+GametypeRadioBtnOverload.addEventListener('change', function() {
+  document.getElementById("drinkselection").style.display="none";
+  document.getElementById("drinkquantity").style.display="none";
+});
+
+const startGameBtn = document.querySelector(".startgamebtn");
+startGameBtn.addEventListener('click', function() {
+
+  let playerName = document.getElementById("playerNames");
+
+
+  let inputValue = playerName.value;
+  let inputArray = inputValue.split(",");
+  for (let i = 0; i < inputArray.length; i++) {
+    inputArray[i] = inputArray[i].trim();
+  }
+
+  window.sessionStorage.setItem("Players", JSON.stringify(inputArray));
+  var storedArray = JSON.parse(sessionStorage.getItem("Players"));
+  
+  document.getElementById("card-form").style.display="block";
+  document.getElementById("card-settings").style.display="none";
+
+  document.getElementById("playerNameText").innerHTML = storedArray[0];
+});

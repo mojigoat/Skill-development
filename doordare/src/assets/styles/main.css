@@ -436,3 +436,10 @@ input.s3-btn-close {
   80% { opacity: 0; }
   100% { opacity: 1; }
 }
+.drinkselection {
+  display: none;
+}
+
+.drinkquantity {
+  display: none;
+}

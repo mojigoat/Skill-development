@@ -41,7 +41,12 @@
 								<div class="action_card__face action_card__face--back">
 									<div class="action_card__content">
 										<div class="action_card__header">
-											<h2>Name</h2>
+											<div class="txt1 text-center">
+												<h2 class="roundText" id="roundText" style="color:white; font-size: 22px;font-weight: bold;">
+													Round 1
+												</h2>
+											</div>
+											<h2 id="playerNameText"></h2>
 										</div>
 										<div class="action_card__body">
 											<p id="actionTask"></p>
@@ -95,7 +100,7 @@
 			</div>
 
 			<!-- #SETTINGS PLATFORM -->
-			<div id="card-form" class="wrap-settings p-l-55 p-r-55 p-t-10 p-b-40" style="display: block;" >
+			<div id="card-settings" class="wrap-settings p-l-55 p-r-55 p-t-10 p-b-40" style="display: block;" >
 				<form class="login100-form validate-form">
 					<div class="logo-container p-t-25 p-b-5">
 						<img class="logo-img" src="./assets/images/dod-full-logo.png" />
@@ -110,8 +115,10 @@
 							<span>
 								<strong>Enter each player name:</strong>
 							</span>
-							<input type="email" id="files" name="files" multiple>
+							<input type="text" id="playerNames" name="playerNames" multiple>
 						</div>
+
+						<!-- #GAMETYPE -->
 						<div class="gametype">
 							<div class="gametypetext txt1 text-center" style="margin-bottom: 20px;">
 								<span >
@@ -125,16 +132,16 @@
 									<div class="container pb-5">
 										<div class="row justify-content-center pb-5">
 											<div class="col-xl-10 pb-5">
-												<input class="checkbox-budget" type="radio" name="budget" id="budget-1" checked>
-												<label class="for-checkbox-budget" for="budget-1">
+												<input class="checkbox-budget" type="radio" name="GametypeRadio" id="GametypeRadio-1" checked>
+												<label class="for-checkbox-budget" for="GametypeRadio-1">
 													<span >Default</span>
 												</label><!--
-												--><input class="checkbox-budget" type="radio" name="budget" id="budget-2">
-												<label class="for-checkbox-budget" for="budget-2">							
+												--><input class="checkbox-budget" type="radio" name="GametypeRadio" id="GametypeRadio-2">
+												<label class="for-checkbox-budget" for="GametypeRadio-2">							
 													<span >Custom</span>
 												</label><!--
-												--><input class="checkbox-budget" type="radio" name="budget" id="budget-3">
-												<label class="for-checkbox-budget" for="budget-3">							
+												--><input class="checkbox-budget" type="radio" name="GametypeRadio" id="GametypeRadio-3">
+												<label class="for-checkbox-budget" for="GametypeRadio-3">							
 													<span >Overload</span>
 												</label>
 											</div>
@@ -144,13 +151,15 @@
 								</div>
 							</div>
 						</div>
-						<div class="drinkselection txt1 text-center">
+						<div id="drinkselection" class="drinkselection txt1 text-center">
 							<span>
 								<strong>Enter your drinks:</strong>
 							</span>
 							<input type="email" id="files" name="files" multiple>
 						</div>
-						<div class="drinkquantity" style="margin-bottom: 20px;">
+
+						<!-- #DRINK QUANTITY -->
+						<div class="drinkquantity" style="margin-bottom: 20px;" id="drinkquantity">
 							<div class="drinkquantitytext txt1 text-center" style="margin-bottom: 20px;">
 								<span >
 									<strong>Select Maximum Forfeit Quantity:</strong>
@@ -163,16 +172,16 @@
 									<div class="container pb-5">
 										<div class="row justify-content-center pb-5">
 											<div class="col-xl-10 pb-5">
-												<input class="checkbox-budget" type="radio" name="budget" id="budget-1" checked>
-												<label class="for-checkbox-budget" for="budget-1">
+												<input class="checkbox-budget" type="radio" name="quantity" id="quantity-1" >
+												<label class="for-checkbox-budget" for="quantity-1">
 													<span >1x</span>
-												</label><!--
-												--><input class="checkbox-budget" type="radio" name="budget" id="budget-2">
-												<label class="for-checkbox-budget" for="budget-2">							
+												</label>
+												<input class="checkbox-budget" type="radio" name="quantity" id="quantity-2">
+												<label class="for-checkbox-budget" for="quantity-2">							
 													<span >2x</span>
-												</label><!--
-												--><input class="checkbox-budget" type="radio" name="budget" id="budget-3">
-												<label class="for-checkbox-budget" for="budget-3">							
+												</label>
+												<input class="checkbox-budget" type="radio" name="quantity" id="quantity-3" checked>
+												<label class="for-checkbox-budget" for="quantity-3">							
 													<span >3x</span>
 												</label>
 											</div>
@@ -189,7 +198,7 @@
 					<div class="container-login100-form-btn">
 						<div class="wrap-login100-form-btn">
 							<div class="login100-form-bgbtn green-lemon"></div>
-							<button type="button" class="startgamebtn login100-form-btn">Start Game</button>
+							<button type="button" class="startgamebtn login100-form-btn" id="startgamebtn">Start Game</button>
 						</div>
 					</div>
 				</form>
