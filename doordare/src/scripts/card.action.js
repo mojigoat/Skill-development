@@ -15,19 +15,7 @@ endturnbtn.addEventListener("click", function (e) {
     actionCard.classList.toggle('is-flipped');
     endturnbtn.setAttribute("disabled", "disabled");
     actionFlipbtn.removeAttribute('disabled');
-
-    let playerName = document.querySelector(".playerNameText");
-    var storedArray = JSON.parse(sessionStorage.getItem("Players"));
-
-    setTimeout(() => {for (let i = 0; i < storedArray.length; i++) {
-      if (playerName.textContent === storedArray[i]) {
-        playerName.textContent = storedArray[i + 1] ? storedArray[i + 1] : storedArray[0];
-        if (playerName.textContent === storedArray[0]) {
-          increaseRoundNumber();
-        }
-        break;
-      }
-    }}, 1000);
+    endPlayerTurn();
 
 });
 
@@ -37,6 +25,7 @@ forfeitendturnbtn.addEventListener("click", function (e) {
     actionFlipbtn.removeAttribute('disabled');
     popupClose();
     resetForfeitText();
+    endPlayerTurn();
 });
 
 forfeitbtn.addEventListener("click", function (e){
@@ -55,6 +44,23 @@ forfeitbtn.addEventListener("click", function (e){
   }, 150);
     
 });
+
+function endPlayerTurn() {
+  let playerName = document.querySelector(".playerNameText");
+  var storedArray = JSON.parse(sessionStorage.getItem("Players"));
+
+  setTimeout(() => {
+    for (let i = 0; i < storedArray.length; i++) {
+      if (playerName.textContent === storedArray[i]) {
+        playerName.textContent = storedArray[i + 1] ? storedArray[i + 1] : storedArray[0];
+        if (playerName.textContent === storedArray[0]) {
+          increaseRoundNumber();
+        }
+        break;
+      }
+    }
+  }, 1000);
+}
 
 function increaseRoundNumber() {
   let roundText = document.getElementById("roundText").innerHTML;
