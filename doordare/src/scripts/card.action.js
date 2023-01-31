@@ -16,13 +16,13 @@ endturnbtn.addEventListener("click", function (e) {
     endturnbtn.setAttribute("disabled", "disabled");
     actionFlipbtn.removeAttribute('disabled');
 
-    let h2 = document.querySelector("h2");
+    let playerName = document.querySelector(".playerNameText");
     var storedArray = JSON.parse(sessionStorage.getItem("Players"));
 
     setTimeout(() => {for (let i = 0; i < storedArray.length; i++) {
-      if (h2.textContent === storedArray[i]) {
-        h2.textContent = storedArray[i + 1] ? storedArray[i + 1] : storedArray[0];
-        if (h2.textContent === storedArray[0]) {
+      if (playerName.textContent === storedArray[i]) {
+        playerName.textContent = storedArray[i + 1] ? storedArray[i + 1] : storedArray[0];
+        if (playerName.textContent === storedArray[0]) {
           increaseRoundNumber();
         }
         break;
@@ -65,5 +65,5 @@ function increaseRoundNumber() {
   roundNo++;
 
   console.log(roundNo);
-  document.getElementById("roundText").innerHTML = roundArr[0] + roundNo;
+  document.getElementById("roundText").innerHTML = roundArr[0] + " " + roundNo;
 }
