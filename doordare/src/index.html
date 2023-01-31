@@ -97,8 +97,8 @@
 				</div>
 			</div>
 
-			<!-- #SETTINGS PLATFORM -->
-			<div id="card-settings" class="wrap-settings p-l-55 p-r-55 p-t-10 p-b-40" style="display: block;" >
+			<!-- #LOGIN PLATFORM -->
+			<div id="card-settings" class="wrap-settings p-l-55 p-r-55 p-t-10 p-b-40" style="display: none;" >
 				<form class="login100-form validate-form">
 					<div class="logo-container p-t-25 p-b-5">
 						<img class="logo-img" src="./assets/images/dod-full-logo.png" />
@@ -140,7 +140,7 @@
 												</label><!--
 												--><input class="checkbox-budget" type="radio" name="GametypeRadio" id="GametypeRadio-3">
 												<label class="for-checkbox-budget" for="GametypeRadio-3">							
-													<span >Overload</span>
+													<span >Chaos</span>
 												</label>
 											</div>
 											
@@ -200,6 +200,37 @@
 						</div>
 					</div>
 				</form>
+			</div>
+
+			<!-- #LOGIN -->
+			<div id="login-form" class="wrap-settings p-l-55 p-r-55 p-t-10 p-b-40"  >
+				<form class="login100-form validate-form">
+					<div class="logo-container p-t-25 p-b-5">
+						<img class="logo-img" src="./assets/images/dod-full-logo.png" />
+					</div>	
+					<div class="txt1 text-center" style="margin-top: 5%; font-size: 22px">
+						<span>
+							<strong>LOGIN</strong>
+						</span>
+					</div>	
+					<div class="settings-container">
+						<div class="playernames txt1 text-center">
+							<input type="username" id="login-username" name="username" placeholder="Username" required="">
+							<input type="password" id="login-pass" name="pswd" placeholder="Password" required="">
+						</div>
+					</div>
+					<div class="container-login100-form-btn">
+						<div class="wrap-login100-form-btn">
+							<div class="login100-form-bgbtn green-lemon"></div>
+							<button type="button" class="startgamebtn login100-form-btn" id="loginbtn">LOGIN</button>
+						</div>
+					</div>
+					<div class="txt1 text-center p-t-10 p-b-10">
+						<span>
+							Login as a <strong><a href="#">Guest</a></strong>.
+						</span>
+					</div>
+				</form>
 
 				
 			</div>
@@ -207,8 +238,8 @@
 		</div>
 	</div>
 
-	<!-- #LOGIN FORM -->
-	<div id="login-form" class="login-container loginformblock" style="background-image: url('./assets/images/login-back.png'); display:none;">
+	<!-- #LOGIN FORM
+	<div id="login-form" class="login-container loginformblock" style="background-image: url('./assets/images/login-back.png'); display: none;">
 		<div class="main">  	
 			<input type="checkbox" id="chk" aria-hidden="true">
 	
@@ -237,7 +268,7 @@
 				</div>
 		</div>
 	</div>
-	
+	 -->
   </body>
 
   <script src="./scripts/client.js"></script>

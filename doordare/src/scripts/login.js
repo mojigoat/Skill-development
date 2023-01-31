@@ -16,9 +16,9 @@ loginBtn.addEventListener('click', async () => {
   if (response.ok) {
     const json = await response.json();
     console.log(json.message);
-
+    
     document.getElementById("login-form").style.display="none";
-    document.getElementById("card-form").style.display="block";
+    document.getElementById("card-settings").style.display="block";
 
   } else {
     console.log('Incorrect login');
