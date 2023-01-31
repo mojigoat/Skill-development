@@ -29,6 +29,15 @@ function resetForfeitText() {
   document.getElementById('forfeit-text').innerHTML = "-";
 }
 
+//Guest Login
+const guestLogin = document.querySelector('.guestLogin');
+guestLogin.addEventListener('click', function() {
+  window.sessionStorage.setItem("LoginSessionName", JSON.stringify("guest"));
+    document.getElementById("login-form").style.display="none";
+    document.getElementById("card-settings").style.display="block";
+});
+
+
 //GameType enabled/disabled
 const GametypeRadioBtnDefault = document.querySelector('input[id="GametypeRadio-1"]');
 const GametypeRadioBtnCustom = document.querySelector('input[id="GametypeRadio-2"]');
