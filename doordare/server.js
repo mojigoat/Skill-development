@@ -83,6 +83,5 @@ app.post('/login', async (req, res) => {
     return res.status(401).json({ message: 'Incorrect login' });
   }
   console.log('Correct login');
-  window.sessionStorage.setItem("LoginSessionName", JSON.stringify(user,user_username));
   return res.status(200).json({ message: 'Logged in' });
 });

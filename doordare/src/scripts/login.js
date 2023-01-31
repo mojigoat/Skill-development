@@ -17,11 +17,11 @@ loginBtn.addEventListener('click', async () => {
     const json = await response.json();
     console.log(json.message);
     
+    window.sessionStorage.setItem("LoginSessionName", JSON.stringify(username));
     document.getElementById("login-form").style.display="none";
     document.getElementById("card-settings").style.display="block";
 
   } else {
     console.log('Incorrect login');
-    // Handle unsuccessful login
   }
 });

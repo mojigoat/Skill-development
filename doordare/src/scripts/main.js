@@ -64,8 +64,8 @@ startGameBtn.addEventListener('click', function() {
   window.sessionStorage.setItem("Players", JSON.stringify(inputArray));
   var storedArray = JSON.parse(sessionStorage.getItem("Players"));
   
-  document.getElementById("card-form").style.display="block";
   document.getElementById("card-settings").style.display="none";
+  document.getElementById("card-form").style.display="block";
 
   document.getElementById("playerNameText").innerHTML = storedArray[0];
 });

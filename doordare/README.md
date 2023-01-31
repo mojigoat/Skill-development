@@ -22,3 +22,4 @@ Tech/Framework used:
 Required Fixes/changes:
 1. Responsive device changes
 2. Bcrypt implementation (npm install bcrypt)
+3. Replace Session storage with Local storage
