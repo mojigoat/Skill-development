@@ -78,3 +78,4 @@ startGameBtn.addEventListener('click', function() {
 
   document.getElementById("playerNameText").innerHTML = storedArray[0];
 });
+

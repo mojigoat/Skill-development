@@ -18,24 +18,28 @@
   src: url("../fonts/averta/Averta-Italic.ttf");
 }
 
-/*[ PADDING ]
+/*[ SPACING ]
 ///////////////////////////////////////////////////////////
 */
 
-/* LEFT */
+/* PADDING LEFT */
 .p-l-55 {padding-left: 55px;}
 
-/* RIGHT */
+/* PADDING RIGHT */
 .p-r-55 {padding-right: 55px;}
 
-/* TOP */
+/* PADDING TOP */
 .p-t-10 {padding-top: 10px;}
 .p-t-25 {padding-top: 25px;}
 
-/* BOTTOM */
+/* PADDING BOTTOM */
 .p-b-5 {padding-bottom: 5px;}
 .p-b-10 {padding-bottom: 10px;}
 .p-b-40 {padding-bottom: 40px;}
+
+/* MARGIN TOP */
+.m-t-10p {margin-top: 10%;}
+.m-t-5p {margin-top: 5%;}
 
 /*[ TEXT ]
 ///////////////////////////////////////////////////////////
@@ -383,7 +387,7 @@ button:hover {
   right: 0;
   z-index: 101;
   width: 25%; 
-  height: 60%; 
+  height: 50%; 
   margin: auto;
 
   @media (max-width: 768px) {
@@ -443,3 +447,4 @@ input.s3-btn-close {
 .drinkquantity {
   display: none;
 }
+
