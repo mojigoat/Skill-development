@@ -7,6 +7,8 @@
     <title>Do or Dare</title>
 	<link rel="icon" type="image/x-icon" href="./assets/images/favicon/favicon.ico">
 
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 	<link rel="stylesheet" type="text/css" href="./assets/styles/main.css">
 	<link rel="stylesheet" type="text/css" href="./assets/styles/card.css">
 	<link rel="stylesheet" type="text/css" href="./assets/styles/login.css">
@@ -27,7 +29,7 @@
 					</div>	
 					<div class="txt1 text-center p-t-10 p-b-10">
 						<span>
-							Read the <strong><a >rulebook</a></strong>.
+							Read the <strong><a class="rulebook" style="cursor:pointer">rulebook</a></strong>.
 						</span>
 					</div>
 					<div class="card__holder p-b-40">
@@ -266,6 +268,26 @@
 						<div class="wrap-login100-form-btn">
 							<div class="login100-form-bgbtn green-lemon"></div>
 							<button type="submit" class="createAccountBtn login100-form-btn" id="createAccountBtn" name="createAccountBtn" disabled>SIGN UP</button>
+						</div>
+					</div>
+				</form>
+
+				
+			</div>
+
+			<!-- #RULEBOOK -->
+			<div id="rulebook-form" class="rulebook-container wrap-settings"  style="display: none;">
+				<form class="login100-form validate-form">
+					<div class="forfeitbanner-container">
+						<img class="forfeitbanner" src="./assets/images/rulebook-banner.png" />
+					</div>
+					<div class="rules-container">
+						<img class="ruleimage" style="width: 100%;" src="./assets/images/ruleset.png" />
+					</div>
+					<div class="container-login100-form-btn">
+						<div class="backtogame-container wrap-login100-form-btn">
+							<div class="login100-form-bgbtn green-lemon"></div>
+							<button type="button" class="backtogamerulebtn login100-form-btn" id="loginbtn"><i class="fa fa-angle-double-left back-icon"></i>Back to Game</button>
 						</div>
 					</div>
 				</form>

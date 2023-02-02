@@ -449,3 +449,18 @@ input.s3-btn-close {
   display: none;
 }
 
+/* RULEBOOK */
+.rulebook-container{
+  position: absolute;
+  width: 550px;
+  background: #ffffff;
+}
+
+.backtogame-container {
+  margin-bottom: 20px;
+}
+
+.back-icon {
+  margin-right: 10px;
+  font-size: 50px;
+}

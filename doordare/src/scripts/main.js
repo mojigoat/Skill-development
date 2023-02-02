@@ -39,6 +39,20 @@ createAccountFormbtn.addEventListener('click', function() {
     document.getElementById("Signup-form").style.display="block";
 });
 
+//Rulebook pop up
+const rulebookBtn = document.querySelector('.rulebook');
+rulebookBtn.addEventListener('click', function() {
+    document.getElementById("card-form").style.display="none";
+    document.getElementById("rulebook-form").style.display="block";
+});
+
+const backtogamerulebtn = document.querySelector('.backtogamerulebtn');
+backtogamerulebtn.addEventListener('click', function() {
+  document.getElementById("card-form").style.display="block";
+    document.getElementById("rulebook-form").style.display="none";
+});
+
+
 
 //GameType enabled/disabled
 const GametypeRadioBtnDefault = document.querySelector('input[id="GametypeRadio-1"]');
