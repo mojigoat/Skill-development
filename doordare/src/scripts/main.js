@@ -9,6 +9,9 @@ function popupClose(){
   document.getElementById("overlay").style.display="none";
 }
 
+//create Account
+const createAccountBtn = document.getElementById('createAccountBtn');
+
 //forfeit Quantity Gif
 function getForfeitQuantity() { 
   const random = Math.random();
@@ -29,12 +32,11 @@ function resetForfeitText() {
   document.getElementById('forfeit-text').innerHTML = "-";
 }
 
-//Guest Login
-const guestLogin = document.querySelector('.guestLogin');
-guestLogin.addEventListener('click', function() {
-  window.sessionStorage.setItem("LoginSessionName", JSON.stringify("guest"));
+//Create Account pop up
+const createAccountFormbtn = document.querySelector('.createAccountFormbtn');
+createAccountFormbtn.addEventListener('click', function() {
     document.getElementById("login-form").style.display="none";
-    document.getElementById("card-settings").style.display="block";
+    document.getElementById("Signup-form").style.display="block";
 });
 
 
@@ -56,6 +58,12 @@ GametypeRadioBtnCustom.addEventListener('change', function() {
 GametypeRadioBtnOverload.addEventListener('change', function() {
   document.getElementById("drinkselection").style.display="none";
   document.getElementById("drinkquantity").style.display="none";
+});
+
+
+
+createAccountBtn.addEventListener('click', function(e) {
+  createAccount();
 });
 
 const startGameBtn = document.querySelector(".startgamebtn");

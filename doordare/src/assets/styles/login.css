@@ -502,3 +502,11 @@ mark{
 	color:#1cb491;
 }
 
+.settings-container #ageVerify:checked {
+	border-color: #1cb491;
+  background-color:#1cb491;
+}
+
+input:invalid {
+	border: 2px solid #1cb491;
+}

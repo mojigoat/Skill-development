@@ -25,3 +25,22 @@ loginBtn.addEventListener('click', async () => {
     console.log('Incorrect login');
   }
 });
+
+const ageCheckBox = document.getElementById('ageVerify');
+
+
+ageCheckBox.addEventListener('change', async () => {
+  const createAccountBtn = document.getElementById('createAccountBtn');
+  const ageDate = document.getElementById('signup-ageDate');
+
+  if(ageCheckBox.checked == true && ageDate.value != ""){
+    createAccountBtn.disabled = false;
+  }else{
+    createAccountBtn.disabled = true;
+  }
+
+});
+
+
+
+

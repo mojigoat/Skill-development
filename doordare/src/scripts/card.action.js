@@ -45,6 +45,7 @@ forfeitbtn.addEventListener("click", function (e){
     
 });
 
+
 function endPlayerTurn() {
   let playerName = document.querySelector(".playerNameText");
   var storedArray = JSON.parse(sessionStorage.getItem("Players"));

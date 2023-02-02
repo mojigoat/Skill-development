@@ -51,6 +51,25 @@ app.get('/', (req, res) => {
 //     });
 // });
 
+// signup
+app.post('/createAccount', (req, res) => {
+  const { username, email, pswd, ageDate } = req.body;
+
+  db.collection('tb_users').insertOne({
+          user_username: username,
+          user_password: pswd,
+          user_email: email,
+          user_date_of_birth: new Date(ageDate),
+          user_lastlogin: new Date(),
+          user_created: new Date(),
+          }, (err, result) => {
+            if (err) {
+                return console.log(err);
+            }
+            res.sendStatus(201);
+        });
+});
+
 // get the click data from the database
 app.get('/task/random', (req, res) => {
     db.collection('tb_action_tasks').aggregate([{ $sample: { size: 1 } }]).toArray((err, result) => {

@@ -95,7 +95,7 @@
 				</div>
 			</div>
 
-			<!-- #LOGIN PLATFORM -->
+			<!-- #SETTINGS PLATFORM -->
 			<div id="card-settings" class="wrap-settings p-l-55 p-r-55 p-t-10 p-b-40" style="display: none;" >
 				<form class="login100-form validate-form">
 					<div class="logo-container p-t-25 p-b-5">
@@ -226,8 +226,47 @@
 					</div>
 					<div class="txt1 text-center p-t-10 p-b-10">
 						<span>
-							Login as a <strong><a class="guestLogin">Guest</a></strong>.
+							Login as a <strong><a class="createAccountFormbtn">Guest</a></strong>.
 						</span>
+					</div>
+				</form>
+
+				
+			</div>
+
+			<!-- #SIGNUP -->
+			<div id="Signup-form" class="wrap-settings p-l-55 p-r-55 p-t-10 p-b-40" style="display:none">
+				<form class="login100-form validate-form">
+					<div class="logo-container p-t-25 p-b-5">
+						<img class="logo-img" src="./assets/images/dod-full-logo.png" />
+					</div>	
+					<div class="txt1 text-center" style="margin-top: 5%; font-size: 22px">
+						<span>
+							<strong>SIGN UP</strong>
+						</span>
+					</div>	
+					<div class="settings-container">
+						<form id="createAccountForm">
+							<div class="playernames txt1 text-center">
+							  <input type="username" id="signup-username" name="username" placeholder="Username (Required)" required="">
+							  <input type="email" id="signup-email" name="email" placeholder="Email (Required)" required="">
+							  <input type="password" id="signup-pass" name="pswd" placeholder="Password (Required)" required="">
+							  <input type="date" id="signup-ageDate" name="ageDate" max="2004-12-31" required="">
+							  <div class="ageVerification">
+								<input type="checkbox" id="ageVerify" name="ageVerify" value="ageVerify" required=""
+								style="position: relative; left: 0%; width: 10%; height: 10%; visibility: inherit; display: inline-block; transform: scale(1.5);">
+								<label for="ageVerify" style="font-size: 16px;">I am 21 years or older</label><br>
+							  </div>
+							</div>
+						</form>
+					</div>
+
+					
+					<div class="container-login100-form-btn m-t-10p">
+						<div class="wrap-login100-form-btn">
+							<div class="login100-form-bgbtn green-lemon"></div>
+							<button type="submit" class="createAccountBtn login100-form-btn" id="createAccountBtn" name="createAccountBtn" disabled>SIGN UP</button>
+						</div>
 					</div>
 				</form>
 
