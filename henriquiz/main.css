@@ -52,6 +52,7 @@
     padding: 5px 10px;
     color: white;
     outline: none;
+    font-size: 16px;
   }
   
   .btn:hover {
@@ -83,14 +84,11 @@
     display: none;
   }
   
-  
-  
-  
-  
-  
-  
-  
-  
+  .arial {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #DFDFDF;
+    font-weight: bold;
+  }  
   
   /* Background Styles Only */
   
@@ -124,17 +122,7 @@
     border-radius: 10px;
   }
   
-  .side-link-youtube {
-    background-color: red;
-  }
   
-  .side-link-twitter {
-    background-color: #1DA1F2;
-  }
-  
-  .side-link-github {
-    background-color: #6e5494;
-  }
   
   .side-link-text {
     margin-left: 10px;
@@ -145,3 +133,4 @@
     color: white;
     font-size: 30px;
   }
+
