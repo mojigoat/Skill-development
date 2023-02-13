@@ -49,19 +49,19 @@ const questions = [
     },
     {
       //5
-      question: 'Based on your 2021 Q&A stream, What was your answer to "If you could change your name, what would it be?',
+      question: 'Based on the HenricoM 2021 Q&A stream, What was your answer to "If you could change your name, what would it be?',
       answers: [
         { text: 'Josh', correct: false },
         { text: 'Henry', correct: false },
         { text: 'Marlin', correct: false },
         { text: 'Billy', correct: false },
         { text: 'Chad', correct: true },
-        { text: 'Kyle', correct: false }
+        { text: 'Nancy', correct: false }
       ]
     },
     {
       //6
-      question: 'In DayZ,What is the capital city of the populer map, Livonia?',
+      question: 'In DayZ, What is the capital city of the populer map, Livonia?',
       answers: [
         { text: 'Stokowsko', correct: false },
         { text: 'Lomnica', correct: false },
@@ -109,7 +109,7 @@ const questions = [
     },
     {
       //10
-      question: 'To which country does the capital of Bangkok below?',
+      question: 'To which country does the capital of Bangkok belong?',
       answers: [
         { text: 'Cambodia', correct: false },
         { text: 'Vietnam', correct: false },
@@ -157,7 +157,7 @@ const questions = [
     },
     {
       //14
-      question: 'In the Pokemon series, What colour Voltorb?',
+      question: 'In the Pokemon series, What colour is Voltorb?',
       answers: [
         { text: 'Blue and Red', correct: false },
         { text: 'White and black', correct: false },
@@ -349,7 +349,7 @@ const questions = [
     },
     {
       //30
-      question: 'What flavor is Cointreau?',
+      question: 'What flavour is Cointreau?',
       answers: [
         { text: 'Orange', correct: true },
         { text: 'Lavender', correct: false },
@@ -385,818 +385,818 @@ const questions = [
     },
     {
       //33
-      question: '',
+      question: 'Which Colors Do Colorblind People Have Trouble Distinguishing?',
       answers: [
-        { text: '', correct: true },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false }
+        { text: 'Red and Blue', correct: false },
+        { text: 'Black and white', correct: false },
+        { text: 'Red and green', correct: true },
+        { text: 'Orange and Yellow', correct: false },
+        { text: 'Red and Black', correct: false },
+        { text: 'Blue and green', correct: false }
       ]
     },
     {
       //34
-      question: '',
+      question: 'As of 2023, Which Nigerian ethnic group obtains the highest percentage of the population?',
       answers: [
-        { text: '', correct: true },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false }
+        { text: 'Hausa', correct: true },
+        { text: 'Yoruba', correct: false },
+        { text: 'Igbo', correct: false },
+        { text: 'Fulani', correct: false },
+        { text: 'Tiv', correct: false },
+        { text: 'Kanuri', correct: false }
       ]
     },
     {
       //35
-      question: '',
+      question: 'Which language does the onomatopoeia word "KEK" derive from, meaning "LOL" or "Haha"?',
       answers: [
-        { text: '', correct: true },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false }
+        { text: 'Japanese', correct: false },
+        { text: 'Syrian', correct: false },
+        { text: 'Russian', correct: false },
+        { text: 'Spanish', correct: false },
+        { text: 'Korean', correct: true },
+        { text: 'German', correct: false }
       ]
     },
     {
       //36
-      question: '',
+      question: 'What country is the language "Burmese" predominantly spoken?',
       answers: [
-        { text: '', correct: true },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false }
+        { text: 'Myanmar', correct: true },
+        { text: 'Nicaragua', correct: false },
+        { text: 'Papua New Guinea', correct: false },
+        { text: 'Bolivia', correct: false },
+        { text: 'Moldova', correct: false },
+        { text: 'Nepali', correct: false }
       ]
     },
     {
       //37
-      question: '',
+      question: 'Select the correctly spelt option.',
       answers: [
-        { text: '', correct: true },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false }
+        { text: 'Necessary', correct: true },
+        { text: 'Nesessary', correct: false },
+        { text: 'Nessecary', correct: false },
+        { text: 'Necessery', correct: false },
+        { text: 'Nessessery', correct: false },
+        { text: 'Necesary', correct: false }
       ]
     },
     {
       //38
-      question: '',
+      question: 'What was the number that displayed on the fictional sentient 1963 Volkswagen Beetle, known as "Herbie"?',
       answers: [
-        { text: '', correct: true },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false }
+        { text: '49', correct: false },
+        { text: '58', correct: false },
+        { text: '51', correct: false },
+        { text: '69', correct: false },
+        { text: '61', correct: false },
+        { text: '53', correct: true }
       ]
     },
     {
       //39
-      question: '',
+      question: 'In the show "7de Laan", What is the full name of "Oubaas"?',
       answers: [
-        { text: '', correct: true },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false }
+        { text: 'Septimus van Zyl', correct: true },
+        { text: 'Tjaart Viljee', correct: false },
+        { text: 'Neville Meintjies', correct: false },
+        { text: 'Tokkie le Roux', correct: false },
+        { text: 'Leon de Lange', correct: false },
+        { text: 'Terry de Klerk', correct: false }
       ]
     },
     {
       //40
-      question: '',
+      question: 'Where was Joshua "Nobodyyyyyyy" Bott born?',
       answers: [
-        { text: '', correct: true },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false }
+        { text: 'Alberton, Johannesburg', correct: false },
+        { text: 'Bluff, Durban', correct: false },
+        { text: 'Philippi, Cape Town', correct: false },
+        { text: 'Westville, Durban', correct: true },
+        { text: 'Wilsonia, East London', correct: false },
+        { text: 'Sandton, Johannesburg', correct: false }
       ]
     },
     {
       //41
-      question: '',
+      question: 'In Harry Potter, What does the Imperius Curse do?',
       answers: [
-        { text: '', correct: true },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false }
+        { text: 'Tortures a victim', correct: false },
+        { text: 'Kills a victim', correct: false },
+        { text: 'Severs a victim', correct: false },
+        { text: 'Controls a victim', correct: true },
+        { text: 'Burns a victim', correct: false },
+        { text: 'Teleports a victim', correct: false }
       ]
     },
     {
       //42
-      question: '',
+      question: 'Natural vaginal lubricant contains a substance called squalene, which is also found in the liver of which animal?',
       answers: [
-        { text: '', correct: true },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false }
+        { text: 'Possum', correct: false },
+        { text: 'Mouse', correct: false },
+        { text: 'Snake', correct: false },
+        { text: 'Shark', correct: true },
+        { text: 'Hippopotamus', correct: false },
+        { text: 'Panda', correct: false }
       ]
     },
     {
       //43
-      question: '',
+      question: 'What species of whale, named after a part of its body, is the second largest animal in the world?',
       answers: [
-        { text: '', correct: true },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false }
+        { text: 'Fin Whale', correct: true },
+        { text: 'Flipper Whale', correct: false },
+        { text: 'Fluke Whale', correct: false },
+        { text: 'Rostrum Whale', correct: false },
+        { text: 'Baleen Whale', correct: false },
+        { text: 'Blowhole Whale', correct: false }
       ]
     },
     {
       //44
-      question: '',
+      question: 'What color is the "black box" in an airplane?',
       answers: [
-        { text: '', correct: true },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false }
+        { text: 'Black', correct: false },
+        { text: 'Orange', correct: true },
+        { text: 'White', correct: false },
+        { text: 'Green', correct: false },
+        { text: 'Red', correct: false },
+        { text: 'Yellow', correct: false }
       ]
     },
     {
       //45
-      question: '',
+      question: 'What was Hugh Hefner\'s jet plane named?',
       answers: [
-        { text: '', correct: true },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false }
+        { text: 'The Pimp Daddy', correct: false },
+        { text: 'The Love Machine', correct: false },
+        { text: 'The Rough Rider', correct: false },
+        { text: 'The Money Maker', correct: false },
+        { text: 'The Huge Hefner', correct: false },
+        { text: 'The Big Bunny', correct: true }
       ]
     },
     {
       //46
-      question: '',
+      question: 'What country banned hula hoops for imitating a "stimulating passion"?',
       answers: [
-        { text: '', correct: true },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false }
+        { text: 'Indonesia', correct: true },
+        { text: 'North Korea', correct: false },
+        { text: 'Japan', correct: false },
+        { text: 'Kyrgyzstan', correct: false },
+        { text: 'Singapore', correct: false },
+        { text: 'Tajikistan', correct: false }
       ]
     },
     {
       //47
-      question: '',
+      question: 'In 2001, which CSGO team earned the highest return based on prize pool winnings?',
       answers: [
-        { text: '', correct: true },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false }
+        { text: 'SK Gaming', correct: false },
+        { text: 'Ninjas in Pyjamas', correct: true },
+        { text: 'Xtreme 3', correct: false },
+        { text: 'Spirit of Amiga', correct: false },
+        { text: 'Fnatic', correct: false },
+        { text: 'Allstars', correct: false }
       ]
     },
     {
       //48
-      question: '',
+      question: 'What is 20 to the power of 0?',
       answers: [
-        { text: '', correct: true },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false }
+        { text: '1', correct: true },
+        { text: '0', correct: false },
+        { text: '20', correct: false },
+        { text: '4', correct: false },
+        { text: '2', correct: false },
+        { text: '10', correct: false }
       ]
     },
     {
       //49
-      question: '',
+      question: 'What is the name of an angle of more than 90 degrees but less than 180 degrees?',
       answers: [
-        { text: '', correct: true },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false }
+        { text: 'Straight angle', correct: false },
+        { text: 'Left angle', correct: false },
+        { text: 'Right angle', correct: false },
+        { text: 'Acute angle', correct: false },
+        { text: 'Reflex angle', correct: false },
+        { text: 'Obtuse angle', correct: true }
       ]
     },
     {
       //50
-      question: '',
+      question: 'Which CSGO team, won the ESL One: Cologne 2016 championship?',
       answers: [
-        { text: '', correct: true },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false }
+        { text: 'Team Liquid', correct: false },
+        { text: 'Virtus.pro', correct: false },
+        { text: 'Fnatic', correct: false },
+        { text: 'SK Gaming', correct: true },
+        { text: 'Astralis', correct: false },
+        { text: 'Team Dignitas', correct: false }
       ]
     },
     {
       //51
-      question: '',
+      question: 'What is the name of the national currency of Hungary?',
       answers: [
-        { text: '', correct: true },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false }
+        { text: 'Forint', correct: true },
+        { text: 'Baht', correct: false },
+        { text: 'Koruna', correct: false },
+        { text: 'Pula', correct: false },
+        { text: 'Krona', correct: false },
+        { text: 'Lev', correct: false }
       ]
     },
     {
       //52
-      question: '',
+      question: 'What was the total number of "Games Played", based on HericoM\'s 2022 Steam Replay results?',
       answers: [
-        { text: '', correct: true },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false }
+        { text: '56', correct: false },
+        { text: '72', correct: false },
+        { text: '81', correct: false },
+        { text: '69', correct: true },
+        { text: '44', correct: false },
+        { text: '101', correct: false }
       ]
     },
     {
       //53
-      question: '',
+      question: 'Which continent is the country "Benin" apart of?',
       answers: [
-        { text: '', correct: true },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false }
+        { text: 'Africa', correct: true },
+        { text: 'Asia', correct: false },
+        { text: 'Europe', correct: false },
+        { text: 'Australia', correct: false },
+        { text: 'South America', correct: false },
+        { text: 'Antarctica', correct: false }
       ]
     },
     {
       //54
-      question: '',
+      question: 'What geometric shape is generally used for stop signs?',
       answers: [
-        { text: '', correct: true },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false }
+        { text: 'Decagon', correct: false },
+        { text: 'Megatron', correct: false },
+        { text: 'Pentagon', correct: false },
+        { text: 'Hexagon', correct: false },
+        { text: 'Octagon', correct: true },
+        { text: 'Decepticon', correct: false }
       ]
     },
     {
       //55
-      question: '',
+      question: 'Which afrikaans idiom, is said to mean "Do not overdo it."',
       answers: [
-        { text: '', correct: true },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false }
+        { text: 'So ń bek moet jem kry', correct: false },
+        { text: 'Dis ń feit soos n koei', correct: false },
+        { text: 'Wors in die hondestal soek', correct: false },
+        { text: 'Die aap uit die mou laat', correct: false },
+        { text: 'Moenie die hoender ruk nie', correct: true },
+        { text: 'Lepel in die dak steek', correct: false }
       ]
     },
     {
       //56
-      question: '',
+      question: 'What are the names of Cinderella\'s two stepsisters?',
       answers: [
-        { text: '', correct: true },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false }
+        { text: 'Annebelle and Pamela', correct: false },
+        { text: 'Anastasia and Drizella', correct: true },
+        { text: 'Anaseed and Godzilla', correct: false },
+        { text: 'Gabrielle and Azalea', correct: false },
+        { text: 'Ariella and Tasia', correct: false },
+        { text: 'Fantasia and Novella', correct: false }
       ]
     },
     {
       //57
-      question: '',
+      question: 'What is the national animal of Sctoland?',
       answers: [
-        { text: '', correct: true },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false }
+        { text: 'Loch Ness Monster', correct: false },
+        { text: 'Griffin', correct: false },
+        { text: 'Minotaur', correct: false },
+        { text: 'Phoenix', correct: false },
+        { text: 'Basilisk', correct: false },
+        { text: 'Unicorn', correct: true }
       ]
     },
     {
       //58
-      question: '',
+      question: 'Based on the HenricoM\'s steam profile, who was the first person to leave a comment?',
       answers: [
-        { text: '', correct: true },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false }
+        { text: 'Reaper69', correct: false },
+        { text: 'Boneless', correct: false },
+        { text: 'Anoxia', correct: false },
+        { text: 'Stiglet', correct: false },
+        { text: 'Filly', correct: true },
+        { text: 'Booteri', correct: false }
       ]
     },
     {
       //59
-      question: '',
+      question: 'In Harry Potter, Who is "Nagini"?',
       answers: [
-        { text: '', correct: true },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false }
+        { text: 'Ron\'s owl', correct: false },
+        { text: 'Hermione\'s cat', correct: false },
+        { text: 'Voldemort\'s snake', correct: true },
+        { text: 'Severes Black\'s elf', correct: false },
+        { text: 'Neville\'s toad', correct: false },
+        { text: 'Hagrid\'s dog', correct: false }
       ]
     },
     {
       //60
-      question: '',
+      question: 'Where was Oleksandr “s1mple” Kostyliev born?',
       answers: [
-        { text: '', correct: true },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false }
+        { text: 'Bucharest, Romania', correct: false },
+        { text: 'Balti, Moldova', correct: false },
+        { text: 'Zugdidi, Georgia', correct: false },
+        { text: 'Moscow, Russia', correct: false },
+        { text: 'Misk, Belarus', correct: false },
+        { text: 'Kiev, Ukraine', correct: true }
       ]
     },
     {
       //61
-      question: '',
+      question: 'What type of animal is a Flemish giant?',
       answers: [
-        { text: '', correct: true },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false }
+        { text: 'A Rabbit', correct: true },
+        { text: 'A Toad', correct: false },
+        { text: 'A Bird', correct: false },
+        { text: 'A Spider', correct: false },
+        { text: 'A Bear', correct: false },
+        { text: 'A Mouse', correct: false }
       ]
     },
     {
       //62
-      question: '',
+      question: 'What is a duel between three people called?',
       answers: [
-        { text: '', correct: true },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false }
+        { text: 'A duel', correct: false },
+        { text: 'A try-duel', correct: false },
+        { text: 'A truel', correct: true },
+        { text: 'A crule', correct: false },
+        { text: 'A trial', correct: false },
+        { text: 'A three way', correct: false }
       ]
     },
     {
       //63
-      question: '',
+      question: 'Based on Transformers, Which Autobot could create holographic illusions?',
       answers: [
-        { text: '', correct: true },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false }
+        { text: 'Optimus Prime', correct: false },
+        { text: 'Bumblebee', correct: false },
+        { text: 'Ratchet', correct: false },
+        { text: 'Ramjack', correct: false },
+        { text: 'Jazz', correct: false },
+        { text: 'Mirage', correct: true }
       ]
     },
     {
       //64
-      question: '',
+      question: 'From what grain is the Japanese spirit Sake made?',
       answers: [
-        { text: '', correct: true },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false }
+        { text: 'Wheat', correct: false },
+        { text: 'Rice', correct: true },
+        { text: 'Barley', correct: false },
+        { text: 'Quinoa', correct: false },
+        { text: 'Bulgar', correct: false },
+        { text: 'Rye', correct: false }
       ]
     },
     {
       //65
-      question: '',
+      question: 'In the original arcade version of Donkey Kong, what was the name of the character that would later be known as Mario?',
       answers: [
-        { text: '', correct: true },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false }
+        { text: 'Jumpman', correct: true },
+        { text: 'Sergio', correct: false },
+        { text: 'Hero boy', correct: false },
+        { text: 'Journey man', correct: false },
+        { text: 'Super boy', correct: false },
+        { text: 'Luigi', correct: false }
       ]
     },
     {
       //66
-      question: '',
+      question: 'Which of the below, is an example of a cruciferous vegetable?',
       answers: [
-        { text: '', correct: true },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false }
+        { text: 'Broccoli', correct: true },
+        { text: 'Cucumber', correct: false },
+        { text: 'Asparagus', correct: false },
+        { text: 'Zucchini', correct: false },
+        { text: 'Carrots', correct: false },
+        { text: 'Sweet Potatoes', correct: false }
       ]
     },
     {
       //67
-      question: '',
+      question: 'Who is the protagonist in "The Legend of Zelda"?',
       answers: [
-        { text: '', correct: true },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false }
+        { text: 'Midna', correct: false },
+        { text: 'Ganon', correct: false },
+        { text: 'Impa', correct: false },
+        { text: 'Ravio', correct: false },
+        { text: 'Link', correct: true },
+        { text: 'Tingle', correct: false }
       ]
     },
     {
       //68
-      question: '',
+      question: 'In Pokemon, What is the final evolution of Weedle?',
       answers: [
-        { text: '', correct: true },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false }
+        { text: 'Butterfree', correct: false },
+        { text: 'Venomoth', correct: false },
+        { text: 'Bellossom', correct: false },
+        { text: 'Clefable', correct: false },
+        { text: 'Fearow', correct: false },
+        { text: 'Beedrill', correct: true }
       ]
     },
     {
       //69
-      question: '',
+      question: 'Pacman was designed to resemble which food?',
       answers: [
-        { text: '', correct: true },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false }
+        { text: 'A Pie', correct: false },
+        { text: 'A Pizza', correct: true },
+        { text: 'A Burger', correct: false },
+        { text: 'A Pancake', correct: false },
+        { text: 'A Doughnut', correct: false },
+        { text: 'An Egg', correct: false }
       ]
     },
     {
       //70
-      question: '',
+      question: 'Based on the HenricoM\'s steam profile, which game out of the below did you leave a review for in February 2021?',
       answers: [
-        { text: '', correct: true },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false }
+        { text: 'Hellblade: Senua\'s Sacrifice', correct: true },
+        { text: 'Tell Me Why', correct: false },
+        { text: 'DayZ', correct: false },
+        { text: 'PUBG: BATTLEGROUNDS', correct: false },
+        { text: 'Counter-strike: Global Offence', correct: false },
+        { text: 'God of War', correct: false }
       ]
     },
     {
       //71
-      question: '',
+      question: 'Which band sang the song "Hospital For Souls"?',
       answers: [
-        { text: '', correct: true },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false }
+        { text: 'Bad Omens', correct: false },
+        { text: 'We came as Romans', correct: false },
+        { text: 'Beartooth', correct: false },
+        { text: 'While she sleeps', correct: false },
+        { text: 'Bring Me The Horizon', correct: true },
+        { text: 'The Amity Affliction', correct: false }
       ]
     },
     {
       //72
-      question: '',
+      question: 'Who is the sidekick of Sonic the Hedgehog?',
       answers: [
-        { text: '', correct: true },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false }
+        { text: 'Mighty', correct: false },
+        { text: 'Shadow', correct: false },
+        { text: 'Knuckles', correct: false },
+        { text: 'Tails', correct: true },
+        { text: 'Bean', correct: false },
+        { text: 'Rouge', correct: false }
       ]
     },
     {
       //73
-      question: '',
+      question: 'In Mortal Kombat universe, What unique special power does Shang Tsung possess?',
       answers: [
-        { text: '', correct: true },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false }
+        { text: 'He is a shapeshifter', correct: true },
+        { text: 'He can freeze his enemies', correct: false },
+        { text: 'He has godlike strength', correct: false },
+        { text: 'He can control the dead', correct: false },
+        { text: 'He can manipulate fire', correct: false },
+        { text: 'He wields a magical whip', correct: false }
       ]
     },
     {
       //74
-      question: '',
+      question: 'In the Afrikaans language, How do you say "How old are you"?',
       answers: [
-        { text: '', correct: true },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false }
+        { text: 'Het jy my lief?', correct: false },
+        { text: 'Sal jy met my trou?', correct: false },
+        { text: 'Die hond blaf', correct: false },
+        { text: 'Wat is jou naam?', correct: false },
+        { text: 'How oud is jy?', correct: true },
+        { text: 'Poesklap', correct: false }
       ]
     },
     {
       //75
-      question: '',
+      question: 'Which former Beatle narrated the TV adventures of Thomas the Tank Engine?',
       answers: [
-        { text: '', correct: true },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false }
+        { text: 'John Lennon', correct: false },
+        { text: 'Paul McCartney', correct: false },
+        { text: 'George Harrison', correct: false },
+        { text: 'Matthew McConaughey', correct: false },
+        { text: 'Ringo Starr', correct: true },
+        { text: 'Boy George', correct: false }
       ]
     },
     {
       //76
-      question: '',
+      question: 'What is the Celsius equivalent of 77 degrees Fahrenheit?',
       answers: [
-        { text: '', correct: true },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false }
+        { text: '25', correct: true },
+        { text: '15', correct: false },
+        { text: '33', correct: false },
+        { text: '50', correct: false },
+        { text: '77', correct: false },
+        { text: '42', correct: false }
       ]
     },
     {
       //77
-      question: '',
+      question: 'What does “HTTP” stand for?',
       answers: [
-        { text: '', correct: true },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false }
+        { text: 'HyperTranfer Text Protocol', correct: false },
+        { text: 'Hyperbolic TransText Process', correct: false },
+        { text: 'HyperText Techincal Procurement', correct: false },
+        { text: 'Hotdog Tasting Party Squad', correct: false },
+        { text: 'Transfer Protocal of Hyper Text', correct: false },
+        { text: 'HyperText Transfer Protocol', correct: true }
       ]
     },
     {
       //78
-      question: '',
+      question: 'What is the symbol for potassium?',
       answers: [
-        { text: '', correct: true },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false }
+        { text: 'Pt', correct: false },
+        { text: 'Ar', correct: false },
+        { text: 'Sr', correct: false },
+        { text: 'Na', correct: false },
+        { text: 'Ag', correct: false },
+        { text: 'K', correct: true }
       ]
     },
     {
       //79
-      question: '',
+      question: 'Which movie kicked off the Skywalker saga in 1977?',
       answers: [
-        { text: '', correct: true },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false }
+        { text: 'Episode IV – A New Hope', correct: true },
+        { text: 'Episode VI – Return of the Jedi', correct: false },
+        { text: 'Episode I – The Phantom Menace', correct: false },
+        { text: 'Episode VIII – The Last Jedi', correct: false },
+        { text: 'Episode II – Attack of the Clones', correct: false },
+        { text: 'Episode III - Star trek se bek', correct: false }
       ]
     },
     {
       //80
-      question: '',
+      question: 'What is the real name of Mia Khalifa?',
       answers: [
-        { text: '', correct: true },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false }
+        { text: 'Sarty Craig Dicemet', correct: false },
+        { text: 'Masul Gaty Lamoun', correct: false },
+        { text: 'Sahil El Khoury', correct: false },
+        { text: 'Jessica Khalifa Rizk', correct: false },
+        { text: 'Sarah Joe Chamoun', correct: true },
+        { text: 'Miarul Nadia Qasim', correct: false }
       ]
     },
     {
       //81
-      question: '',
+      question: 'In 2020, Netflix aired a reality show that required participants to remain celibate. What was it called?',
       answers: [
-        { text: '', correct: true },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false }
+        { text: 'Are you the one', correct: true },
+        { text: '90 Day Fiance', correct: false },
+        { text: 'Love Is Blind', correct: false },
+        { text: 'Too Hot To Handle', correct: true },
+        { text: 'Love Island', correct: false },
+        { text: 'The Circle', correct: false }
       ]
     },
     {
       //82
-      question: '',
+      question: 'Popular yourtuber Olajide Olayinka Williams "JJ" Olatunji goes by the name "KSI", What does it stand for?',
       answers: [
-        { text: '', correct: true },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false }
+        { text: 'Kourage, Solokills & Internet', correct: false },
+        { text: 'Knowledge, Strength & Integrity', correct: true },
+        { text: 'Kinship, Success & Inspiration', correct: false },
+        { text: 'Karmic, Serenity & Intuition', correct: false },
+        { text: 'Kindness, Solitude & Inner Peace', correct: false },
+        { text: 'Karmic, Synergy & Imagination', correct: false }
       ]
     },
     {
       //83
-      question: '',
+      question: 'Minecraft follows a day and night cycle. How long does the defualt full cycle last in real-time?',
       answers: [
-        { text: '', correct: true },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false }
+        { text: '25 Minutes', correct: false },
+        { text: '45 Minutes', correct: false },
+        { text: '30 Minutes', correct: false },
+        { text: '15 Minutes', correct: false },
+        { text: '60 Minutes', correct: false },
+        { text: '20 Minutes', correct: true }
       ]
     },
     {
       //84
-      question: '',
+      question: 'In the comic book world, what does DC stand for?',
       answers: [
-        { text: '', correct: true },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false }
+        { text: 'Dark Crimes', correct: false },
+        { text: 'Dark Comics', correct: false },
+        { text: 'Detective Comics', correct: true },
+        { text: 'Daily Comics', correct: false },
+        { text: 'Dubious Comics', correct: false },
+        { text: 'Detective Crimes', correct: false }
       ]
     },
     {
       //85
-      question: '',
+      question: 'Which of these is NOT one of the 13 countries crossed by the Equator?',
       answers: [
-        { text: '', correct: true },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false }
+        { text: 'Egypt', correct: true },
+        { text: 'Kenya', correct: false },
+        { text: 'Indonesia', correct: false },
+        { text: 'Ecuador', correct: false },
+        { text: 'Somalia', correct: false },
+        { text: 'Maldives', correct: false }
       ]
     },
     {
       //86
-      question: '',
+      question: 'Who wrote the Lord of the Rings?',
       answers: [
-        { text: '', correct: true },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false }
+        { text: 'George R. R. Martin', correct: false },
+        { text: 'Stephen King', correct: false },
+        { text: 'K. K. Rowling', correct: false },
+        { text: 'J. R. R. Tolkien', correct: true },
+        { text: 'Stephenie Meyer', correct: false },
+        { text: 'Neil Gaiman', correct: false }
       ]
     },
     {
       //87
-      question: '',
+      question: 'An octothorpe is the official name for which famous symbol?',
       answers: [
-        { text: '', correct: true },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false }
+        { text: 'A hyphen', correct: true },
+        { text: 'A full stop', correct: false },
+        { text: 'A question mark', correct: false },
+        { text: 'An ampersand', correct: false },
+        { text: 'A hashtag', correct: true },
+        { text: 'An asterisk', correct: false }
       ]
     },
     {
       //88
-      question: '',
+      question: 'Which continent is the country "Lebanon" apart of?',
       answers: [
-        { text: '', correct: true },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false }
+        { text: 'Africa', correct: false },
+        { text: 'Asia', correct: true },
+        { text: 'Europe', correct: false },
+        { text: 'Australia', correct: false },
+        { text: 'South America', correct: false },
+        { text: 'Antarctica', correct: false }
       ]
     },
     {
       //89
-      question: '',
+      question: 'In the Mortal Kombat universe, Who is the leader of the Lin Kuei faction?',
       answers: [
-        { text: '', correct: true },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false }
+        { text: 'Sub-Zero', correct: true },
+        { text: 'Shang Tsung', correct: false },
+        { text: 'Shao Kahn', correct: false },
+        { text: 'Shinnok', correct: false },
+        { text: 'Raiden', correct: false },
+        { text: 'Scorpion', correct: false }
       ]
     },
     {
       //90
-      question: '',
+      question: 'In the cartoon series "Asterix and Obelix", What is the village druid\'s name?',
       answers: [
-        { text: '', correct: true },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false }
+        { text: 'Sauron', correct: false },
+        { text: 'Getafix', correct: true },
+        { text: 'Jafar', correct: false },
+        { text: 'Rahl', correct: false },
+        { text: 'Agarwain', correct: false },
+        { text: 'Jarrathix', correct: false }
       ]
     },
     {
       //91
-      question: '',
+      question: 'What was the original name of the now known jelly candy, "Gummy Bears"',
       answers: [
-        { text: '', correct: true },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false }
+        { text: 'Jumping Bears', correct: false },
+        { text: 'Candy Bears', correct: false },
+        { text: 'Dancing Bears', correct: true },
+        { text: 'Haribo Bears', correct: false },
+        { text: 'Wobbly Bobblies', correct: false },
+        { text: 'Wiggly Waggles', correct: false }
       ]
     },
     {
       //92
-      question: '',
+      question: 'In Minecraft, How many sets of wool must you have to make a bed?',
       answers: [
-        { text: '', correct: true },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false }
+        { text: '3', correct: true },
+        { text: '4', correct: false },
+        { text: '1', correct: false },
+        { text: '5', correct: false },
+        { text: '2', correct: false },
+        { text: '6', correct: false }
       ]
     },
     {
       //93
-      question: '',
+      question: 'Where in the world would you find the "Spanish Steps"?',
       answers: [
-        { text: '', correct: true },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false }
+        { text: 'Rome, Italy', correct: true },
+        { text: 'Cuenca, Ecuador', correct: false },
+        { text: 'Brasilia, Brazil', correct: false },
+        { text: 'Cambridge, England', correct: false },
+        { text: 'Toulouse, France', correct: false },
+        { text: 'Barcelona, Spain', correct: false }
       ]
     },
     {
       //94
-      question: '',
+      question: 'In the Disney Series "Adventures of the Gummi Bears", What below is not an ingredient of the famous Gummiberry juice?',
       answers: [
-        { text: '', correct: true },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false }
+        { text: 'Red Berries', correct: false},
+        { text: 'Orange Berries', correct: false },
+        { text: 'Blue Berries', correct: false },
+        { text: 'Green Berries', correct: false },
+        { text: 'Purple Berries', correct: false },
+        { text: 'Black Berries', correct: true }
       ]
     },
     {
       //95
-      question: '',
+      question: 'What does a "wether" describe when referencing a goat?',
       answers: [
-        { text: '', correct: true },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false }
+        { text: 'A shaved goat', correct: false },
+        { text: 'A goat that controls the weather', correct: false },
+        { text: 'A baby goat', correct: false },
+        { text: 'A castrated goat', correct: true },
+        { text: 'A dehorned goat', correct: false },
+        { text: 'A elderly goat', correct: false }
       ]
     },
     {
       //96
-      question: '',
+      question: 'Meaning "clever, original, and inventive", Choose the correctly spelt word?',
       answers: [
-        { text: '', correct: true },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false }
+        { text: 'Ingenious', correct: true },
+        { text: 'Ingeneous', correct: false },
+        { text: 'Inginious', correct: false },
+        { text: 'Ingenous', correct: false },
+        { text: 'Ingenius', correct: false },
+        { text: 'Ingineous', correct: false }
       ]
     },
     {
       //97
-      question: '',
+      question: 'In mathematic, What is the smallest perfect number?',
       answers: [
-        { text: '', correct: true },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false }
+        { text: 'The number 10', correct: false },
+        { text: 'The number 1', correct: false },
+        { text: 'The number 6', correct: true },
+        { text: 'The number 32', correct: false },
+        { text: 'The number 2', correct: false },
+        { text: 'The number 105', correct: false }
       ]
     },
     {
       //98
-      question: '',
+      question: 'What is the real name of Lana Rhoades?',
       answers: [
-        { text: '', correct: true },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false }
+        { text: 'Amara Lynee Maple', correct: true },
+        { text: 'Elizabeth Rose Watson', correct: false },
+        { text: 'Grace Ann Cooper', correct: false },
+        { text: 'Sarah Jean Davis', correct: false },
+        { text: 'Abigail Louise Baker', correct: false },
+        { text: 'Summer Jean Johnson', correct: false }
       ]
     },
     {
       //99
-      question: '',
+      question: 'What car was refered to as "General Lee" in the Dukes of Hazzard?',
       answers: [
-        { text: '', correct: true },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false }
+        { text: '1970 Chevrolet Chevelle', correct: false},
+        { text: '1969 Chevrolet Camaro', correct: false },
+        { text: '1971 Plymouth Baracuda', correct: false },
+        { text: '1968 Ford Mustang', correct: false },
+        { text: '1974 Pontiac Firebird', correct: false },
+        { text: '1969 Dodge Charger', correct: true }
       ]
     },
     {
       //100
-      question: '',
+      question: 'What was the first question of this quiz?',
       answers: [
-        { text: '', correct: true },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false },
-        { text: '', correct: false }
+        { text: 'What does the acronym "SMH" stand for?', correct: false },
+        { text: 'Which continent is the country "Lebanon" apart of?', correct: false },
+        { text: 'What year did the "Friends" TV sitcom premier on NBC?', correct: false },
+        { text: 'When did world war II end?', correct: false },
+        { text: 'What is Joe Exotic a.k.a the Tiger King\'s real name?', correct: true },
+        { text: 'Who was the first president of Malawi?', correct: false }
       ]
     }
   ]
