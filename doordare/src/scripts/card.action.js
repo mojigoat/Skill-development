@@ -1,4 +1,4 @@
-const actionCard = document.querySelector(".action_card__inner");
+const actionCard = document.querySelector(".action-card-inner");
 const actionFlipbtn = document.querySelector(".flipcardbtn")
 const endturnbtn = document.querySelector(".endturnbtn");
 const forfeitendturnbtn = document.querySelector(".forfeitendturnbtn");

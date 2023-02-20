@@ -163,7 +163,7 @@ button:hover {
 
 }
 
-.container-login100 {
+.container-card {
   width: 100%;  
   min-height: 100vh;
   display: -webkit-box;
@@ -180,7 +180,7 @@ button:hover {
   background-size: cover;
 }
 
-.wrap-login100 {
+.wrap-card {
   width: 500px;
   background: #fffffff2;
   border-radius: 10px;
@@ -202,11 +202,11 @@ button:hover {
   display: flex;
 }
 
-.login100-form {
+.card-form {
   width: 100%;
 }
 
-.container-login100-form-btn {
+.container-card-form-btn {
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -216,7 +216,7 @@ button:hover {
   justify-content: center;
 }
 
-.wrap-login100-form-btn {
+.wrap-card-form-btn {
   width: 45%;
   display: block;
   position: relative;
@@ -232,7 +232,7 @@ button:hover {
   -ms-box-shadow: 0 5px 30px 0px rgba(3, 216, 222, 0.2);
 }
 
-.wrap-login100-form-btn-left50{
+.wrap-card-form-btn-left50{
   bottom: 0;
 }
 
@@ -252,7 +252,7 @@ button:hover {
   height: 450px;
 }
 
-.login100-form-bgbtn {
+.card-form-bgbtn {
   position: absolute;
   z-index: -1;
   width: 300%;
@@ -281,7 +281,7 @@ button:hover {
   background: linear-gradient(right, #1e5342, #4E7064, #1e5342, #4E7064);
 }
 
-.login100-form-btn {
+.card-form-btn {
   font-family: Poppins-Medium;
   font-size: 16px;
   color: #fff;
@@ -300,18 +300,18 @@ button:hover {
   height: 50px;
 }
 
-.login100-form-btn:disabled,
-.login100-form-btn[disabled]{
+.card-form-btn:disabled,
+.card-form-btn[disabled]{
   background-color: #cccccc;
   color: #666666;
 }
 
-.wrap-login100-form-btn:hover .login100-form-bgbtn {
+.wrap-card-form-btn:hover .card-form-bgbtn {
   left: 0;
 }
 
 @media (max-width: 576px) {
-  .wrap-login100 {
+  .wrap-card {
     padding-left: 15px;
     padding-right: 15px;
   }

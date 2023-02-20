@@ -6,7 +6,7 @@ loginBtn.addEventListener('click', async () => {
   const username = usernameInput.value;
   const password = passwordInput.value;
   
-  // Send a POST request to the server with the user's login credentials
+  // Send a POST request for the Login
   const response = await fetch('/login', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },

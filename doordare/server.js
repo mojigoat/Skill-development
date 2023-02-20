@@ -7,21 +7,18 @@ const MongoClient = require('mongodb').MongoClient;
 const app = express();
 
 app.use(express.static('src'));
-app.use(express.json()); // for parsing application/json
-app.use(express.urlencoded({ extended: true })); // for parsing application/x-www-form-urlencoded
+app.use(express.json()); 
+app.use(express.urlencoded({ extended: true })); 
 
-const url = "mongodb+srv://zypherr:doctorslater@cluster0.axc2a.mongodb.net/?retryWrites=true&w=majority";
+const url = "mongodb+srv://zypherr:doctorslater@cluster0.axc2a.mongodb.net/?retryWrites=true&w=majority"; //To add to .config file
 const client = new MongoClient(url, { useNewUrlParser: true });
 
-// connect to the db and start the express server
+// connect to the db
 let db;
-
-// ***Replace the URL below with the URL for your database***
 async function connectToDb() {
     try {
         await client.connect();
             db = client.db("dod_db");
-            // start the express web server listening on 8080
             app.listen(8080, () => {
               console.log('listening on 8080');
             });

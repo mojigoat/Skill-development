@@ -6,13 +6,13 @@
   }
     
   /* ACTION CARD */
-  .action_card {
+  .action-card {
     width: 100%;
     height: 450px;
     perspective: 1000px;
   }
   
-  .action_card__inner {
+  .action-card-inner {
     width: 100%;
     height: 100%;
     transition: transform 1s;
@@ -21,12 +21,12 @@
     position: relative;
   }
   
-  .action_card__inner.is-flipped {
+  .action-card-inner.is-flipped {
     transform: rotateY(180deg);
   }
   
   
-  .action_card__face {
+  .action-card-face {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -37,34 +37,34 @@
     box-shadow: 0px 3px 18px 3px rgba(0, 0, 0, 0.2);
   }
   
-  .action_card__face--front {
+  .action-card-face--front {
     background-image: linear-gradient(to bottom right, var(--primary), var(--secondary));
     display: flex;
     align-items: center;
     justify-content: center;
   }
   
-  .action_card__face--front h2 {
+  .action-card-face--front h2 {
     color: #FFF;
     font-size: 32px;
   }
   
-  .action_card__face--back {
+  .action-card-face--back {
     background-color: var(--light);
     transform: rotateY(180deg);
   }
   
-  .action_card__content {
+  .action-card-content {
     width: 100%;
     height: 100%;
   }
   
-  .action_card__header {
+  .action-card-header {
     position: relative;
     padding: 30px 30px 40px;
   }
   
-  .action_card__header:after {
+  .action-card-header:after {
     content: '';
     display: block;
     position: absolute;
@@ -88,7 +88,7 @@
     object-fit: cover;
   }
   
-  .action_card__header h2 {
+  .action-card-header h2 {
     color: #FFF;
     font-size: 32px;
     font-weight: 900;
@@ -96,24 +96,24 @@
     text-align: center;
   }
   
-  .action_card__body {
+  .action-card-body {
     padding: 30px;
   }
   
-  .action_card__body h3 {
+  .action-card-body h3 {
     color: var(--dark);
     font-size: 24px;
     font-weight: 600;
     margin-bottom: 15px;
   }
   
-  .action_card__body p {
+  .action-card-body p {
     color: var(--dark);
     font-size: 18px;
     line-height: 1.4;
   }
 
-  .action_card__footer {
+  .action-card-footer {
     width: 100%;
     position: fixed;
     bottom: 7%;
