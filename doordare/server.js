@@ -20,7 +20,6 @@ async function connectToDb() {
         await client.connect();
             db = client.db("dod_db");
             app.listen(8080, () => {
-              console.log('listening on 8080');
             });
     } catch (err) {
         console.log(err);
@@ -32,21 +31,6 @@ connectToDb();
 app.get('/', (req, res) => {
   res.sendFile(__dirname + '/index.html');
 });
-
-// // add a document to the DB collection recording the click event
-// app.post('/clicked', (req, res) => {
-//     const click = {clickTime: new Date()};
-//     console.log(click);
-//     console.log(db);
-  
-//     db.collection('clicks').insertOne(click, (err, result) => {
-//         if (err) {
-//             return console.log(err);
-//         }
-//         console.log('click added to db');
-//         res.sendStatus(201);
-//     });
-// });
 
 // signup
 app.post('/createAccount', (req, res) => {
@@ -84,20 +68,14 @@ app.get('/forfeit/random', (req, res) => {
 
 app.post('/login', async (req, res) => {
   const { username, password } = req.body;
-  // Find the user by username
   const user = await db.collection('tb_users').findOne({ user_username: username });
+
   if (!user) {
-    console.log('Incorrect login: username not found');
     return res.status(401).json({ message: 'Incorrect login' });
   }
-  // Compare the input password with the hashed password in the database
-  console.log(password);
-  console.log(user.user_password);
-  
+  // Compare the input password with the password - To be implementing Hashing with Bcrypt SOON!
   if (password != user.user_password) {
-    console.log('Incorrect login: incorrect password');
     return res.status(401).json({ message: 'Incorrect login' });
   }
-  console.log('Correct login');
   return res.status(200).json({ message: 'Logged in' });
 });

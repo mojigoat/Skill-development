@@ -25,7 +25,6 @@ function getForfeitQuantity() {
   }
 
   document.getElementById("forfeitcounter").src = "./assets/images/animations/" + quantity + "x.gif";
-  console.log(quantity);
 }
 
 function resetForfeitText() {

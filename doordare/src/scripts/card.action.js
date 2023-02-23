@@ -65,12 +65,9 @@ function endPlayerTurn() {
 
 function increaseRoundNumber() {
   let roundText = document.getElementById("roundText").innerHTML;
-  console.log(roundText);
   let roundArr = roundText.split(" ");
-  console.log(roundArr[0] + "-" + roundArr[1]);
   let roundNo = roundArr[1];
   roundNo++;
 
-  console.log(roundNo);
   document.getElementById("roundText").innerHTML = roundArr[0] + " " + roundNo;
 }

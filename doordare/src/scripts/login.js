@@ -12,16 +12,16 @@ loginBtn.addEventListener('click', async () => {
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ username, password })
   });
-  console.log(response);
+
   if (response.ok) {
     const json = await response.json();
-    console.log(json.message);
     
     window.sessionStorage.setItem("LoginSessionName", JSON.stringify(username));
     document.getElementById("login-form").style.display="none";
     document.getElementById("card-settings").style.display="block";
 
   } else {
+    //Make changes to return correct 401 response code
     console.log('Incorrect login');
   }
 });
