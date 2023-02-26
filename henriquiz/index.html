@@ -5,14 +5,18 @@
         <link rel="stylesheet" href="main.css">
     </head>
     <body>
+        <div class="gif-container" id="gif-container">
+        </div>
         <div class="container">
             <div id="question-container" class="hide">
-              <div id="question" class="Arial" style="color: black;">Question</div>
+              <div id="question" class="question" style="color: black;">Question</div>
               <div id="answer-buttons" class="btn-grid">
                 <button class="btn">Answer 1</button>
                 <button class="btn">Answer 2</button>
                 <button class="btn">Answer 3</button>
                 <button class="btn">Answer 4</button>
+                <button class="btn">Answer 5</button>
+                <button class="btn">Answer 6</button>
               </div>
             </div>
             <div class="controls">
@@ -24,11 +28,25 @@
 
          
                 <!-- Side Links Only -->
-                <div class="side-links">
-                  <h2 id="donations-text" class="Arial">$ 0</h2>
-                  <h2 id="question-counter" class="Arial">0/30</h2>
+                <div class="left-side">
+                  <div class="sidebtn-container">
+                    <h2 id="donations-text" class="Arial">$ 0</h2>
+                    <h2 id="question-counter" class="Arial">0/100</h2>
+                  </div>
                 </div>
-          
+
+                <div class="right-side">
+                  <div class="sidebtn-container">
+                    <button class="btnStyle">Call a stranger</button> <br>
+                    <button class="btnStyle">Call a mod</button><br>
+                    <button class="btnStyle">Call a DadM</button><br>
+                    <button class="btnStyle">Chat Poll</button><br>
+                    <button class="btnStyle">Ask Siri</button>
+                  </div>
+                </div>
+                
+                <script src="questions.js"></script>
                 <script src="main.js"></script>
+                <script src="GiphyAPI.js"></script>
     </body>
 </html>

@@ -152,7 +152,7 @@ const questions = [
         { text: 'Schtroumpf Grognon', correct: false },
         { text: 'Grand Schtroumpf', correct: false },
         { text: 'Schtroumpf Cuisinier', correct: false },
-        { text: 'Mémé Schtroumpf', correct: false }
+        { text: 'Meme Schtroumpf', correct: false }
       ]
     },
     {
@@ -1200,3 +1200,4 @@ const questions = [
       ]
     }
   ]
+
