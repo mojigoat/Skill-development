@@ -95,7 +95,7 @@ function  selectAnswer(e) {
     createGifImage()
     getRandomWrongGif()
 
-    getSFX(18, "wrong");
+    getSFX(19, "wrong");
   }
 
   setStatusClass(document.body, correct)
