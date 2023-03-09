@@ -14,14 +14,30 @@ const createAccountBtn = document.getElementById('createAccountBtn');
 
 //forfeit Quantity Gif
 function getForfeitQuantity() { 
-  const random = Math.random();
+
+  var maxQuantitySetting = JSON.parse(sessionStorage.getItem("maxQuantitySetting"));;
+
+  const random = Math.random()
   let quantity = 0;
-  if (random <= 0.6) {
+  if (random <= 0.65) {
     quantity = 1;
-  } else if (random > 0.6 && random <= 0.9) {
-    quantity = 2;
+  } else if (random > 0.65 && random <= 0.9) {
+    if(maxQuantitySetting == 1){
+      console.log("Max Quanitity is 1");
+      quantity = 1;
+    }else{
+      quantity = 2;   
+    }
   } else {
-    quantity = 3;
+    if(maxQuantitySetting == 1){
+      console.log("Max Quanitity is 1");
+      quantity = 1;
+    }else if(maxQuantitySetting == 2){
+      console.log("Max Quanitity is 2");
+      quantity = 2;
+    }else{
+      quantity = 3;   
+    }
   }
 
   document.getElementById("forfeitcounter").src = "./assets/images/animations/" + quantity + "x.gif";
@@ -83,7 +99,8 @@ const startGameBtn = document.querySelector(".startgamebtn");
 startGameBtn.addEventListener('click', function() {
 
   let playerName = document.getElementById("playerNames");
-
+  let customDrinkNames = document.getElementById("customDrinkNames");
+  let customDrinks = customDrinkNames.value;
 
   let inputValue = playerName.value;
   let inputArray = inputValue.split(",");
@@ -93,10 +110,35 @@ startGameBtn.addEventListener('click', function() {
 
   window.sessionStorage.setItem("Players", JSON.stringify(inputArray));
   var storedArray = JSON.parse(sessionStorage.getItem("Players"));
-  
+
+  if(customDrinks.length !== 0){
+    let customDrinksArray = customDrinks.split(",");
+    for (let i = 0; i < customDrinksArray.length; i++) {
+      customDrinksArray[i] = customDrinksArray[i].trim();
+    }
+
+    window.sessionStorage.setItem("CustomDrinks", JSON.stringify(customDrinksArray));
+    console.log("Custom drink list loaded.");
+  }else{
+    console.log("No custom drink list set - setting drinks menu to default.");
+  }
+
+  //CustomQuantityCheck
+  if (document.getElementById('quantity-1').checked) {
+    window.sessionStorage.setItem("maxQuantitySetting", JSON.stringify(1));
+    console.log("Max Quantity set to 1.");
+  }else if(document.getElementById('quantity-2').checked){
+    window.sessionStorage.setItem("maxQuantitySetting", JSON.stringify(2));
+    console.log("Max Quantity set to 2.");
+  }else if(document.getElementById('quantity-3').checked){
+    window.sessionStorage.setItem("maxQuantitySetting", JSON.stringify(3));
+    console.log("Max Quantity set to 3.");
+  }
+
   document.getElementById("card-settings").style.display="none";
   document.getElementById("card-form").style.display="block";
 
   document.getElementById("playerNameText").innerHTML = storedArray[0];
 });
+
 

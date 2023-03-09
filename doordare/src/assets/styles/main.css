@@ -390,12 +390,15 @@ button:hover {
   width: 25%; 
   height: 50%; 
   margin: auto;
+}
 
-  @media (max-width: 768px) {
-    width: 90%;
-    margin: auto 5%;
+@media only screen and (max-width: 768px) {
+  .popup{
+    width: 80%;
+    height: 60%; 
   }
 }
+
 
 .popup-inner {
   position: relative;

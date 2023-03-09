@@ -20,7 +20,15 @@ function getRandomTask() {
 }
 
 function getRandomForfeit() {
-  fetch('/forfeit/random', {method: 'GET'})
+  let customDrinksArr = JSON.parse(sessionStorage.getItem('CustomDrinks'));
+  if(customDrinksArr != null){
+    console.log("Found Custom Drink list.");
+    const randomIndex = Math.floor(Math.random() * customDrinksArr.length);
+    let selectedCustomDrink = customDrinksArr[randomIndex];
+    console.log(selectedCustomDrink);
+    document.getElementById('forfeit-text').innerHTML = selectedCustomDrink;
+  }else{
+    fetch('/forfeit/random', {method: 'GET'})
     .then(function(response) {
       if(response.ok) return response.json();
       throw new Error('Request failed.');
@@ -31,6 +39,7 @@ function getRandomForfeit() {
     .catch(function(error) {
       console.log(error);
     });
+  }
 }
 
 function createAccount(){
