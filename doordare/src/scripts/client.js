@@ -12,7 +12,14 @@ function getRandomTask() {
       throw new Error('Request failed.');
     })
     .then(function(data) {
-      document.getElementById('actionTask').innerHTML = data.action_task;
+
+      if (data.action_task.indexOf('#') !== -1) {
+        const randomNum = Math.floor(Math.random() * 100) + 1;
+        const modifiedText = data.action_task.replace(/#/g, randomNum);
+        document.getElementById('actionTask').innerHTML = modifiedText;
+      } else {
+        document.getElementById('actionTask').innerHTML = data.action_task;
+      }
     })
     .catch(function(error) {
       console.log(error);
