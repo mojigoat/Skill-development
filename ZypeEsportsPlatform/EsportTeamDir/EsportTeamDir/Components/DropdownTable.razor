@@ -1,0 +1,72 @@
+﻿
+@using DataAccessLibrary
+@using DataAccessLibrary.Models
+
+@inject IPlayerData _db
+
+@if(players is null){
+<p><em>Loading...</em></p>
+}else{
+<table class="table myaccordion table-hover" id="accordion">
+  <thead>
+    <tr >
+      @*<th>PlayerID</th>*@
+      @*<th>FirstName</th>*@
+      @*<th>LastName</th>*@
+      <th>GamerTag</th>
+      <th>CountryOfResidence</th>
+      @*<th>GameTitle</th>*@
+      @*<th>TeamRole</th>*@
+      <th>GameRole</th>
+      <th>OPGG</th>
+      <th>Discord</th>
+      @*<th>Email</th>*@
+      @*<th>ContactNumber</th>*@
+      <th>TeamID</th>
+      @*<th>DOB</th>*@
+
+    </tr>
+  </thead>
+  <tbody>
+        @foreach (var player in players)
+        {
+        
+        <tr data-toggle="collapse" data-target="#collapse-@count" aria-expanded="false" aria-controls="collapse-@count" class="collapsed">
+          @*<td>@player.PlayerId</td>*@
+          @*<td>@player.FirstName</td>*@
+          @*<td>@player.LastName</td>*@
+          <td>@player.GamerTag</td>
+          <td>@player.CountryOfResidence</td>
+          @*<td>@player.GameTitle</td>*@
+          @*<td>@player.TeamRole</td>*@
+          <td>@player.GameRole</td>
+              <td><a href="@player.OPGGLink" target=”_blank”>OP.GG HERE</a></td>
+          <td>@player.Discord</td>
+          @*<td>@player.Email</td>*@
+          @*<td>@player.ContactNumber</td>*@
+          <td>@player.TeamId</td>
+          @*<td>@player.DOB</td>*@   
+        </tr>
+        
+		<tr>
+		  <td colspan="8" id="collapse-@count" class="collapse acc" data-parent="#accordion">
+		    <p>Lorem ipsum dolor </p>
+		  </td>
+		</tr>
+		
+          count++;
+        }
+  </tbody>
+</table>
+}
+
+
+@code {
+    private List<PlayerModel> players;
+    int count = 0;
+
+    protected override async Task OnInitializedAsync()
+    {
+        players = await _db.GetPlayers();
+    }
+}

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EsportTeamDir", "EsportTeamDir\EsportTeamDir.csproj", "{10EEC284-5B79-4360-9450-880EF16A6824}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccessLibrary", "DataAccessLibrary\DataAccessLibrary.csproj", "{BBEB08EF-B596-4963-A2C3-E91C6A55436A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10EEC284-5B79-4360-9450-880EF16A6824}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10EEC284-5B79-4360-9450-880EF16A6824}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10EEC284-5B79-4360-9450-880EF16A6824}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10EEC284-5B79-4360-9450-880EF16A6824}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBEB08EF-B596-4963-A2C3-E91C6A55436A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBEB08EF-B596-4963-A2C3-E91C6A55436A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBEB08EF-B596-4963-A2C3-E91C6A55436A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBEB08EF-B596-4963-A2C3-E91C6A55436A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {522F0DD3-1987-4C26-ADA4-A1FA6134F544}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,66 @@
+﻿@page "/Data/People"
+
+@using DataAccessLibrary
+@using DataAccessLibrary.Models
+
+@inject IPlayerData _db
+
+<h1>Players</h1>
+
+<h4>Current People</h4>
+if(player is null){
+<p><em>Loading...</em></p>
+}else{
+  <table>
+    <thead>
+      <tr>
+        <th>PlayerID</th>
+        <th>FirstName</th>
+        <th>LastName</th>
+        <th>GamerTag</th>
+        <th>CountryOfResidence</th>
+        <th>GameTitle</th>
+        <th>TeamRole</th>
+        <th>GameRole</th>
+        <th>OPGG</th>
+        <th>Discord</th>
+        <th>Email</th>
+        <th>ContactNumber</th>
+        <th>TeamID</th>
+        <th>DOB</th>
+      </tr>
+    </thead>
+    <tbody>
+        @foreach(var player in players)
+        {
+            <tr>
+              <td>@player.PlayerId</td>
+              <td>@player.FirstName</td>
+              <td>@player.LastName</td>
+              <td>@player.GamerTag</td>
+              <td>@player.CountryOfResidence</td>
+              <td>@player.GameTitle</td>
+              <td>@player.TeamRole</td>
+              <td>@player.GameRole</td>
+              <td>@player.OPGGLink</td>
+              <td>@player.Discord</td>
+              <td>@player.Email</td>
+              <td>@player.ContactNumber</td>
+              <td>@player.TeamId</td>
+              <td>@player.DOB</td>
+
+            </tr>
+        }
+    </tbody>
+  </table>
+}
+
+
+@code {
+    private List<PlayerModel> players;
+
+    protected override async Task OnInitializedAsync()
+    {
+        players = await _db.GetPlayers();
+    }
+}

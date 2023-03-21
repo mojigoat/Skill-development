@@ -1,0 +1,71 @@
+﻿
+@using DataAccessLibrary
+@using DataAccessLibrary.Models
+
+@inject ITeamData _teamsDataAccess;
+@inject IPlayerData _playersDataAccess;
+
+@if(teams is null){
+<p><em>Loading...</em></p>
+}else{
+<table class="table myaccordion table-hover" id="accordion">
+  <thead>
+    <tr >
+      <th>Organisation</th>
+      <th>Team</th>
+      <th>Country</th>
+      <th>Captain</th>
+      <th>Discord</th>
+      <th>Manager</th>
+      <th>Discord</th>
+      <th>OP.GG</th>
+      @*<th>Players</th>*@
+      <th>Active</th>
+    </tr>
+  </thead>
+  <tbody>
+        @foreach (var team in teams)
+        {
+       
+        <tr data-toggle="collapse" data-target="#collapse-@rowCount" aria-expanded="false" aria-controls="collapse-@rowCount" class="collapsed">
+          <td>@team.Organisation</td>
+          <td>@team.TeamName</td>
+          <td>@team.RepresentingCountry</td>
+          <td>@team.GamerTag</td>
+          <td>@team.Discord</td>
+          <td>@team.TeamManager</td>
+          <td>@team.ManagerDiscord</td>
+          <td><a href="@team.OPGGLink" target="_blank">OP.GG HERE</a></td>
+          @*<td>@team.Players</td>*@
+          <td>@team.Active</td>
+        </tr>
+        
+		<tr>
+		  <td colspan="10" id="collapse-@rowCount" class="collapse acc" data-parent="#accordion">
+		    @foreach(var player in players){
+               <PlayerCards />
+            }
+           
+		  </td>
+		</tr>
+		
+          rowCount++;
+        }
+  </tbody>
+</table>
+}
+
+
+@code {
+    private List<TeamModel> teams;
+    private List<PlayerModel> players;
+    int rowCount = 0;
+
+    protected override async Task OnInitializedAsync()
+    {
+        teams = await _teamsDataAccess.GetTeams();
+        players = await _playersDataAccess.GetPlayers();
+    }
+
+
+}
