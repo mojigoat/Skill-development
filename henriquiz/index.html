@@ -1,0 +1,54 @@
+<html> 
+    <head> 
+        <title>HenriQuiz</title> 
+ 
+        <link rel="stylesheet" href="main.css"> 
+    </head> 
+    <body> 
+        <div class="gif-container" id="gif-container"> 
+        </div> 
+        <div class="container"> 
+            <div id="question-container" class="hide"> 
+              <div id="question" class="question" style="color: black;">Question</div> 
+              <div id="answer-buttons" class="btn-grid"> 
+                <button class="btn">Answer 1</button> 
+                <button class="btn">Answer 2</button> 
+                <button class="btn">Answer 3</button> 
+                <button class="btn">Answer 4</button> 
+                <button class="btn">Answer 5</button> 
+                <button class="btn">Answer 6</button> 
+              </div> 
+            </div> 
+            <div class="controls"> 
+              <button id="start-btn" class="start-btn btn">Start</button> 
+              <button id="next-btn" class="next-btn btn hide">Next</button> 
+            </div> 
+          </div> 
+                 
+ 
+          
+                <!-- Side Links Only --> 
+                <div class="left-side"> 
+                  <div class="sidebtn-container"> 
+                    <h2 id="donations-text" class="Arial">$ 0</h2> 
+                    <h2 id="question-counter" class="Arial">0/100</h2> 
+                  </div> 
+                </div> 
+ 
+                <div class="right-side"> 
+                  <div class="sidebtn-container"> 
+                    <button id="CallaStrangerBtn" class="btnStyle" >2 x Call a stranger</button> <br> 
+                    <button id="callATwitchSubscriber" class="btnStyle" >Call a Twitch subscriber</button> <br> 
+                    <button id="CallaModBtn" class="btnStyle">Call a mod</button><br> 
+                    <button id="CallDadMBtn" class="btnStyle">Call DadM</button><br> 
+                    <button id="TwitchChatBtn" class="btnStyle">Chat Poll</button><br> 
+                    <button id="AskSiriBtn" class="btnStyle">Ask Siri</button> 
+                  </div> 
+                </div> 
+                 
+                <script src="questions.js"></script> 
+                <script src="main.js"></script> 
+                <script src="GiphyAPI.js"></script> 
+                <script src="buttonActions.js"></script> 
+    </body> 
+</html>

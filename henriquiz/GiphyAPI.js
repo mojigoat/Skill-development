@@ -21,7 +21,7 @@ function getRandomCheerGif() {
 }
 
 function getRandomWrongGif() {
-    fetch("https://api.giphy.com/v1/gifs/search?api_key=Flh6UoZP0biXBVo5FHB92qRf9PxWsbL4&q=disappointed&limit=100&offset=0&rating=g&lang=en")
+    fetch("https://api.giphy.com/v1/gifs/search?api_key=Flh6UoZP0biXBVo5FHB92qRf9PxWsbL4&q=insult&limit=100&offset=0&rating=g&lang=en")
         .then(response => response.json()) // Parse the JSON response
         .then(data => {
             const results = data.data; // Get the array of results from the response

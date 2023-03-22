@@ -421,7 +421,7 @@ const questions = [
     },
     {
       //36
-      question: 'What country is the language "Burmese" predominantly spoken?',
+      question: 'What country is the language "Burmese" predominantly spoken in?',
       answers: [
         { text: 'Myanmar', correct: true },
         { text: 'Nicaragua', correct: false },
@@ -651,8 +651,8 @@ const questions = [
       //55
       question: 'Which afrikaans idiom, is said to mean "Do not overdo it."',
       answers: [
-        { text: 'So ń bek moet jem kry', correct: false },
-        { text: 'Dis ń feit soos n koei', correct: false },
+        { text: 'So n bek moet jem kry', correct: false },
+        { text: 'Dis n feit soos n koei', correct: false },
         { text: 'Wors in die hondestal soek', correct: false },
         { text: 'Die aap uit die mou laat', correct: false },
         { text: 'Moenie die hoender ruk nie', correct: true },
@@ -709,7 +709,7 @@ const questions = [
     },
     {
       //60
-      question: 'Where was Oleksandr “s1mple” Kostyliev born?',
+      question: 'Where was Oleksandr "s1mple" Kostyliev born?',
       answers: [
         { text: 'Bucharest, Romania', correct: false },
         { text: 'Balti, Moldova', correct: false },
@@ -883,7 +883,7 @@ const questions = [
         { text: 'Sal jy met my trou?', correct: false },
         { text: 'Die hond blaf', correct: false },
         { text: 'Wat is jou naam?', correct: false },
-        { text: 'How oud is jy?', correct: true },
+        { text: 'Hoe oud is jy?', correct: true },
         { text: 'Poesklap', correct: false }
       ]
     },
@@ -913,7 +913,7 @@ const questions = [
     },
     {
       //77
-      question: 'What does “HTTP” stand for?',
+      question: 'What does "HTTP" stand for?',
       answers: [
         { text: 'HyperTranfer Text Protocol', correct: false },
         { text: 'Hyperbolic TransText Process', correct: false },
@@ -939,12 +939,12 @@ const questions = [
       //79
       question: 'Which movie kicked off the Skywalker saga in 1977?',
       answers: [
-        { text: 'Episode IV – A New Hope', correct: true },
-        { text: 'Episode VI – Return of the Jedi', correct: false },
-        { text: 'Episode I – The Phantom Menace', correct: false },
-        { text: 'Episode VIII – The Last Jedi', correct: false },
-        { text: 'Episode II – Attack of the Clones', correct: false },
-        { text: 'Episode III - Star trek se bek', correct: false }
+        { text: 'Episode IV A New Hope', correct: true },
+        { text: 'Episode VI Return of the Jedi', correct: false },
+        { text: 'Episode I The Phantom Menace', correct: false },
+        { text: 'Episode VIII The Last Jedi', correct: false },
+        { text: 'Episode II Attack of the Clones', correct: false },
+        { text: 'Episode III Star trek se bek', correct: false }
       ]
     },
     {
@@ -963,7 +963,7 @@ const questions = [
       //81
       question: 'In 2020, Netflix aired a reality show that required participants to remain celibate. What was it called?',
       answers: [
-        { text: 'Are you the one', correct: true },
+        { text: 'Are you the one', correct: false },
         { text: '90 Day Fiance', correct: false },
         { text: 'Love Is Blind', correct: false },
         { text: 'Too Hot To Handle', correct: true },
@@ -980,12 +980,12 @@ const questions = [
         { text: 'Kinship, Success & Inspiration', correct: false },
         { text: 'Karmic, Serenity & Intuition', correct: false },
         { text: 'Kindness, Solitude & Inner Peace', correct: false },
-        { text: 'Karmic, Synergy & Imagination', correct: false }
+        { text: 'Keenness, Synergy & Imagination', correct: false }
       ]
     },
     {
       //83
-      question: 'Minecraft follows a day and night cycle. How long does the defualt full cycle last in real-time?',
+      question: 'Minecraft follows a day and night cycle. How long does the default full cycle last in real-time?',
       answers: [
         { text: '25 Minutes', correct: false },
         { text: '45 Minutes', correct: false },
@@ -1035,7 +1035,7 @@ const questions = [
       //87
       question: 'An octothorpe is the official name for which famous symbol?',
       answers: [
-        { text: 'A hyphen', correct: true },
+        { text: 'A hyphen', correct: false },
         { text: 'A full stop', correct: false },
         { text: 'A question mark', correct: false },
         { text: 'An ampersand', correct: false },
