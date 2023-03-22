@@ -58,6 +58,15 @@ app.get('/task/random', (req, res) => {
       res.send(result[0]);
     });
   });
+  
+
+  // get the question from the database
+app.get('/question/random', (req, res) => {
+  db.collection('tb_action_questions').aggregate([{ $sample: { size: 1 } }]).toArray((err, result) => {
+    if (err) return console.log(err);
+    res.send(result[0]);
+  });
+});
 
 app.get('/forfeit/random', (req, res) => {
     db.collection('tb_forfeit_drinks').aggregate([{ $sample: { size: 1 } }]).toArray((err, result) => {

@@ -26,6 +26,20 @@ function getRandomTask() {
     });
 }
 
+function getRandomQuestion() {
+  fetch('/question/random', {method: 'GET'})
+    .then(function(response) {
+      if(response.ok) return response.json();
+      throw new Error('Request failed.');
+    })
+    .then(function(data) {
+        document.getElementById('actionTask').innerHTML = data.action_question;
+    })
+    .catch(function(error) {
+      console.log(error);
+    });
+}
+
 function getRandomForfeit() {
   let customDrinksArr = JSON.parse(sessionStorage.getItem('CustomDrinks'));
   if(customDrinksArr != null){

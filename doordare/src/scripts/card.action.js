@@ -8,7 +8,16 @@ actionFlipbtn.addEventListener("click", function (e) {
     actionCard.classList.toggle('is-flipped');
     endturnbtn.removeAttribute('disabled');
     actionFlipbtn.setAttribute("disabled", "disabled");
-    getRandomTask();
+
+    var ranNum = Math.floor(Math.random() * ((1-0)+1) + 0);
+    console.log(ranNum);
+
+    if(ranNum == 0){
+      getRandomTask();
+    }else{
+      getRandomQuestion();
+    }
+    
 });
 
 endturnbtn.addEventListener("click", function (e) {
