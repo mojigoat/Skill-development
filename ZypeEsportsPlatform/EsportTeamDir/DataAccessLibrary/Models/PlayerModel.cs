@@ -20,7 +20,7 @@ namespace DataAccessLibrary.Models
 		public string? Discord { get; set; }
 		public string? Email { get; set; }
 		public string? ContactNumber { get; set; }
-		public string? TeamId { get; set; }
+		public int? TeamId { get; set; }
 		public string? DOB { get; set; }
 	}
 }

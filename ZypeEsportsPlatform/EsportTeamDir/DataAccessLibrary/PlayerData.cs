@@ -18,7 +18,7 @@ namespace DataAccessLibrary
 
 		public Task<List<PlayerModel>> GetPlayers()
 		{
-			string sql = "SELECT * FROM DBO.LeagueOfLegendsPlayers WHERE TeamID = 1";
+			string sql = "SELECT * FROM DBO.LeagueOfLegendsPlayers";
 
 			return _database.LoadData<PlayerModel, dynamic>(sql, new { });
 		}

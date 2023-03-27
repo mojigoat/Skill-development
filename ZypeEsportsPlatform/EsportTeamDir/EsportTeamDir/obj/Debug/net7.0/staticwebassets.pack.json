@@ -57,6 +57,42 @@
       "PackagePath": "staticwebassets\\images\\.DS_Store"
     },
     {
+      "Id": "D:\\Github\\Skill-development\\ZypeEsportsPlatform\\EsportTeamDir\\EsportTeamDir\\wwwroot\\images\\ADC.svg",
+      "PackagePath": "staticwebassets\\images\\ADC.svg"
+    },
+    {
+      "Id": "D:\\Github\\Skill-development\\ZypeEsportsPlatform\\EsportTeamDir\\EsportTeamDir\\wwwroot\\images\\Jungle.svg",
+      "PackagePath": "staticwebassets\\images\\Jungle.svg"
+    },
+    {
+      "Id": "D:\\Github\\Skill-development\\ZypeEsportsPlatform\\EsportTeamDir\\EsportTeamDir\\wwwroot\\images\\Mid.svg",
+      "PackagePath": "staticwebassets\\images\\Mid.svg"
+    },
+    {
+      "Id": "D:\\Github\\Skill-development\\ZypeEsportsPlatform\\EsportTeamDir\\EsportTeamDir\\wwwroot\\images\\Support.svg",
+      "PackagePath": "staticwebassets\\images\\Support.svg"
+    },
+    {
+      "Id": "D:\\Github\\Skill-development\\ZypeEsportsPlatform\\EsportTeamDir\\EsportTeamDir\\wwwroot\\images\\Top.svg",
+      "PackagePath": "staticwebassets\\images\\Top.svg"
+    },
+    {
+      "Id": "D:\\Github\\Skill-development\\ZypeEsportsPlatform\\EsportTeamDir\\EsportTeamDir\\wwwroot\\images\\discord-icon.png",
+      "PackagePath": "staticwebassets\\images\\discord-icon.png"
+    },
+    {
+      "Id": "D:\\Github\\Skill-development\\ZypeEsportsPlatform\\EsportTeamDir\\EsportTeamDir\\wwwroot\\images\\opgg-icon.png",
+      "PackagePath": "staticwebassets\\images\\opgg-icon.png"
+    },
+    {
+      "Id": "D:\\Github\\Skill-development\\ZypeEsportsPlatform\\EsportTeamDir\\EsportTeamDir\\wwwroot\\images\\player-temp.png",
+      "PackagePath": "staticwebassets\\images\\player-temp.png"
+    },
+    {
+      "Id": "D:\\Github\\Skill-development\\ZypeEsportsPlatform\\EsportTeamDir\\EsportTeamDir\\wwwroot\\images\\twitter-icon.png",
+      "PackagePath": "staticwebassets\\images\\twitter-icon.png"
+    },
+    {
       "Id": "D:\\Github\\Skill-development\\ZypeEsportsPlatform\\EsportTeamDir\\EsportTeamDir\\wwwroot\\js\\.DS_Store",
       "PackagePath": "staticwebassets\\js\\.DS_Store"
     },

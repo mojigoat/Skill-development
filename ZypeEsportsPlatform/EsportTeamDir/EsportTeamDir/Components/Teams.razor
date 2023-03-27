@@ -42,10 +42,23 @@
         
 		<tr>
 		  <td colspan="10" id="collapse-@rowCount" class="collapse acc" data-parent="#accordion">
-		    @foreach(var player in players){
-               <PlayerCards />
+		    @{foreach(var player in players){
+             if(player.TeamId == team.TeamID){
+               if(player.TeamRole != "Substitute"){
+                 var fullname = player.FirstName + " " + player.LastName;
+                 <PlayerCards 
+                      GamerTag=@player.GamerTag 
+                      Name=@fullname 
+                      twitterURL="https://twitter.com/home"
+                      OPGGURL=@player.OPGGLink
+                      DiscordHash=@player.Discord
+                      GameRole=@player.GameRole
+                 />
+                 
+              }
+             }
             }
-           
+           }
 		  </td>
 		</tr>
 		
@@ -57,15 +70,22 @@
 
 
 @code {
+
     private List<TeamModel> teams;
     private List<PlayerModel> players;
+    public List<PlayerModel[]> playerTeamModelList;
+
     int rowCount = 0;
 
     protected override async Task OnInitializedAsync()
     {
         teams = await _teamsDataAccess.GetTeams();
         players = await _playersDataAccess.GetPlayers();
+
+        playerTeamModelList = teams.Select(team => players.Where(player => player.TeamId == team.TeamID).ToArray()).ToList();
     }
+
+    
 
 
 }

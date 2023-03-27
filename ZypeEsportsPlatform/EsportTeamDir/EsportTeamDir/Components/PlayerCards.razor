@@ -1,27 +1,73 @@
-﻿<div class="whole ">
-		<div class="type ultimate">
-		<p>Ultimate</p>
-		</div>
-	<div class="plan">
+﻿<div class="profile-card">
 
-		<div class="header">
-			<span>$</span>79<sup>99</sup>
-			<p class="month">per month</p>
-		</div>
-		<div class="content">
-			<ul>
-				<li>15 Email Accounts</li>
-				<li>100GB Space</li>
-				<li>1 Domain Name</li>
-				<li>500GB Bandwidth</li>
-			</ul>
-		</div>
-		@*<div class="price">
-		  <a href="#" class="bottom"><p class="cart">Add to cart</p></a>
-		</div>*@
-	</div>
+  <header>
+
+    <a href="http://ali.shahab.pk">
+      <img class="playercardimg" src="images/player-temp.png">
+    </a>
+
+    <div>
+        @{
+            var role = GameRole;
+            var roleImgURL = "images/" + role + ".svg";
+        }
+      <img class="playerrole" src=@roleImgURL style="width: 10%; margin:0; border-radius: 35%;" />
+    </div>
+    
+    <h1>@GamerTag</h1>
+
+    <h2>@Name</h2>
+
+    
+  </header>
+
+  @*FOR STATS TO COME*@
+  @*<div class="profile-bio">
+
+    <p>Specialties are Creative UI, HTML5, CSS3, Semantic Web, Responsive Layouts, Web Standards Compliance, Performance Optimization, Cross Device Troubleshooting.</p>
+
+  </div>*@
+
+  <ul class="profile-social-links">
+
+    <li>
+      <a href="@twitterURL" target="_blank">
+        <img src="images/twitter-icon.png">
+      </a>
+    </li>
+
+    <li>
+      <a href="@OPGGURL" target="_blank">
+        <img src="images/opgg-icon.png">
+      </a>
+    </li>
+
+    <li>
+      <a href="@DiscordHash" target="_blank">
+        <img src="images/discord-icon.png">
+      </a>
+    </li>
+
+  </ul>
+
 </div>
 
 @code {
+    [Parameter]
+    public string GamerTag { get; set; }
 
+    [Parameter]
+    public string  Name { get; set; }
+
+    [Parameter]
+    public string twitterURL { get; set; }
+
+    [Parameter]
+    public string OPGGURL { get; set; }
+
+    [Parameter]
+    public string DiscordHash { get; set; }
+
+    [Parameter]
+    public string GameRole { get; set; }
 }

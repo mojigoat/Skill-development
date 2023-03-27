@@ -9,7 +9,7 @@ namespace DataAccessLibrary.Models
 {
 	public class TeamModel
 	{
-		public int TeamId { get; set; }
+		public int TeamID { get; set; }
 		public string TeamName { get; set; }
 		public Blob TeamLogo { get; set; }
 		public string? Organisation { get; set; }

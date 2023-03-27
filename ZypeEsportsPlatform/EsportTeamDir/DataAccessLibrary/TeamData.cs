@@ -19,7 +19,7 @@ namespace DataAccessLibrary
 
 		public Task<List<TeamModel>> GetTeams()
 		{
-			string sql = "SELECT t.Organisation, t.TeamName, t.RepresentingCountry, p.GamerTag , p.Discord, t.TeamManager, t.ManagerDiscord, t.OPGGLink, t.Active, (SELECT COUNT(p.TeamID) FROM LeagueOfLegendsPlayers p JOIN LeagueOfLegendsTeams t ON p.TeamID = t.TeamID) AS Players FROM LeagueOfLegendsTeams t JOIN dbo.LeagueOfLegendsPlayers p ON t.TeamID = p.TeamID WHERE p.TeamRole = 'captain'";
+			string sql = "SELECT t.TeamID, t.Organisation, t.TeamName, t.RepresentingCountry, p.GamerTag , p.Discord, t.TeamManager, t.ManagerDiscord, t.OPGGLink, t.Active, (SELECT COUNT(p.TeamID) FROM LeagueOfLegendsPlayers p JOIN LeagueOfLegendsTeams t ON p.TeamID = t.TeamID) AS Players FROM LeagueOfLegendsTeams t JOIN dbo.LeagueOfLegendsPlayers p ON t.TeamID = p.TeamID WHERE p.TeamRole = 'captain'";
 
 
             return _database.LoadData<TeamModel, dynamic>(sql, new { });
