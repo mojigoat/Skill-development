@@ -73,6 +73,10 @@
       "PackagePath": "staticwebassets\\images\\Mid.svg"
     },
     {
+      "Id": "D:\\Github\\Skill-development\\ZypeEsportsPlatform\\EsportTeamDir\\EsportTeamDir\\wwwroot\\images\\Slayeryeye.png",
+      "PackagePath": "staticwebassets\\images\\Slayeryeye.png"
+    },
+    {
       "Id": "D:\\Github\\Skill-development\\ZypeEsportsPlatform\\EsportTeamDir\\EsportTeamDir\\wwwroot\\images\\Support.svg",
       "PackagePath": "staticwebassets\\images\\Support.svg"
     },
@@ -81,12 +85,20 @@
       "PackagePath": "staticwebassets\\images\\Top.svg"
     },
     {
+      "Id": "D:\\Github\\Skill-development\\ZypeEsportsPlatform\\EsportTeamDir\\EsportTeamDir\\wwwroot\\images\\active-icon.png",
+      "PackagePath": "staticwebassets\\images\\active-icon.png"
+    },
+    {
       "Id": "D:\\Github\\Skill-development\\ZypeEsportsPlatform\\EsportTeamDir\\EsportTeamDir\\wwwroot\\images\\default.png",
       "PackagePath": "staticwebassets\\images\\default.png"
     },
     {
       "Id": "D:\\Github\\Skill-development\\ZypeEsportsPlatform\\EsportTeamDir\\EsportTeamDir\\wwwroot\\images\\discord-icon.png",
       "PackagePath": "staticwebassets\\images\\discord-icon.png"
+    },
+    {
+      "Id": "D:\\Github\\Skill-development\\ZypeEsportsPlatform\\EsportTeamDir\\EsportTeamDir\\wwwroot\\images\\notactive-icon.png",
+      "PackagePath": "staticwebassets\\images\\notactive-icon.png"
     },
     {
       "Id": "D:\\Github\\Skill-development\\ZypeEsportsPlatform\\EsportTeamDir\\EsportTeamDir\\wwwroot\\images\\opgg-icon.png",

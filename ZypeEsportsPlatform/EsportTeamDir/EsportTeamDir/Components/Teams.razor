@@ -36,8 +36,13 @@
           <td>@team.TeamManager</td>
           <td>@team.ManagerDiscord</td>
           <td><a href="@team.OPGGLink" target="_blank">OP.GG HERE</a></td>
-          @*<td>@team.Players</td>*@
-          <td>@team.Active</td>
+          @{
+            if(team.Active == true){
+              <td><img class="activeStatus" src="images/active-icon.png"/></td>
+           }else{
+              <td><img class="activeStatus" src="images/notactive-icon.png" /></td>
+           }
+          }
         </tr>
         
 		<tr>

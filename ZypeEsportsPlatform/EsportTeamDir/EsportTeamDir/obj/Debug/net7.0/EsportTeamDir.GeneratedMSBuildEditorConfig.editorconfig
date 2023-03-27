@@ -28,6 +28,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQbGF5ZXJDYXJkcy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Github/Skill-development/ZypeEsportsPlatform/EsportTeamDir/EsportTeamDir/Components/PlayerStats.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQbGF5ZXJTdGF0cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Github/Skill-development/ZypeEsportsPlatform/EsportTeamDir/EsportTeamDir/Components/Teams.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xUZWFtcy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
