@@ -65,6 +65,10 @@
       "PackagePath": "staticwebassets\\images\\Jungle.svg"
     },
     {
+      "Id": "D:\\Github\\Skill-development\\ZypeEsportsPlatform\\EsportTeamDir\\EsportTeamDir\\wwwroot\\images\\Knott.png",
+      "PackagePath": "staticwebassets\\images\\Knott.png"
+    },
+    {
       "Id": "D:\\Github\\Skill-development\\ZypeEsportsPlatform\\EsportTeamDir\\EsportTeamDir\\wwwroot\\images\\Mid.svg",
       "PackagePath": "staticwebassets\\images\\Mid.svg"
     },
@@ -75,6 +79,10 @@
     {
       "Id": "D:\\Github\\Skill-development\\ZypeEsportsPlatform\\EsportTeamDir\\EsportTeamDir\\wwwroot\\images\\Top.svg",
       "PackagePath": "staticwebassets\\images\\Top.svg"
+    },
+    {
+      "Id": "D:\\Github\\Skill-development\\ZypeEsportsPlatform\\EsportTeamDir\\EsportTeamDir\\wwwroot\\images\\default.png",
+      "PackagePath": "staticwebassets\\images\\default.png"
     },
     {
       "Id": "D:\\Github\\Skill-development\\ZypeEsportsPlatform\\EsportTeamDir\\EsportTeamDir\\wwwroot\\images\\discord-icon.png",

@@ -2,8 +2,17 @@
 
   <header>
 
-    <a href="http://ali.shahab.pk">
-      <img class="playercardimg" src="images/player-temp.png">
+    <a href="#">
+       @{var playerImgURL = $"images/{GamerTag}.png";}
+       @{var defaultImgURL = "images/default.png";}
+
+        @if (File.Exists($"{Environment.CurrentDirectory}/wwwroot/{playerImgURL}"))
+        {
+            <img class="playercardimg" src=@playerImgURL>
+        }else
+        {
+            <img class="playercardimg" src=@defaultImgURL>
+        }
     </a>
 
     <div>

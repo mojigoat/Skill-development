@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "hg7lMbSJk7QEhDq1CoHHNELlbwUuM8XumB8aZiXgHGo=",
+  "Hash": "DXht+4B/iGxTyEPDsVyWWDF1Oh2iSK1kmJQD6pQZTDI=",
   "Source": "EsportTeamDir",
   "BasePath": "_content/EsportTeamDir",
   "Mode": "Default",
@@ -272,6 +272,23 @@
       "OriginalItemSpec": "wwwroot\\images\\ADC.svg"
     },
     {
+      "Identity": "D:\\Github\\Skill-development\\ZypeEsportsPlatform\\EsportTeamDir\\EsportTeamDir\\wwwroot\\images\\default.png",
+      "SourceId": "EsportTeamDir",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Github\\Skill-development\\ZypeEsportsPlatform\\EsportTeamDir\\EsportTeamDir\\wwwroot\\",
+      "BasePath": "_content/EsportTeamDir",
+      "RelativePath": "images/default.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\default.png"
+    },
+    {
       "Identity": "D:\\Github\\Skill-development\\ZypeEsportsPlatform\\EsportTeamDir\\EsportTeamDir\\wwwroot\\images\\discord-icon.png",
       "SourceId": "EsportTeamDir",
       "SourceType": "Discovered",
@@ -304,6 +321,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\Jungle.svg"
+    },
+    {
+      "Identity": "D:\\Github\\Skill-development\\ZypeEsportsPlatform\\EsportTeamDir\\EsportTeamDir\\wwwroot\\images\\Knott.png",
+      "SourceId": "EsportTeamDir",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Github\\Skill-development\\ZypeEsportsPlatform\\EsportTeamDir\\EsportTeamDir\\wwwroot\\",
+      "BasePath": "_content/EsportTeamDir",
+      "RelativePath": "images/Knott.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Knott.png"
     },
     {
       "Identity": "D:\\Github\\Skill-development\\ZypeEsportsPlatform\\EsportTeamDir\\EsportTeamDir\\wwwroot\\images\\Mid.svg",
