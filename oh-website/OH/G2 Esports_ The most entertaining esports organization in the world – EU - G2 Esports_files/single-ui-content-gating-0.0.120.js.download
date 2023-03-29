@@ -1,0 +1,50 @@
+if (/complete|interactive|loaded/.test(document.readyState)) {
+  bootstrapApp();
+} else {
+  window.addEventListener('DOMContentLoaded', bootstrapApp);
+}
+
+function bootstrapApp() {
+  const customAngularElements = [
+    { tag: "single-content-gating" },
+    { tag: "single-product-form" },
+    { tag: "single-spinner" },
+    { tag: "single-fan-subscription-management" },
+    { tag: "single-cart" },
+    { tag: "single-order-status" },
+    { tag: "single-order-status-digital" },
+    { tag: "single-order-status-membership" },
+    { tag: "single-order-status-nft" },
+    { tag: "single-order-status-video" },
+    { tag: "single-order-status-powered-by" },
+    { tag: "single-order-status-loading" },
+    { tag: "single-account-activation" },
+    { tag: "single-video-bar" }
+  ];
+
+  let exit;
+  customAngularElements.forEach(el => {
+    if(exit) {
+      return;
+    }
+    const tags = document.getElementsByTagName(el.tag);
+    if (tags && tags.length >= 1) {
+      createScript();
+      exit = true;
+    }
+  });
+
+  if (!exit) {
+    if (window.location.pathname === '/cart' || window.location.pathname.includes('/orders/') ||
+      (window.location.pathname.includes('/checkouts/') && window.location.pathname.includes('/thank_you')) ||
+      window.location.pathname.includes("/account/activate")) {
+      createScript();
+    }
+  }
+}
+
+function createScript() {
+  const script = document.createElement('script');
+  script.setAttribute('src', 'https://gated-content.singlemusic.com/single-ui-content-gating-app-0.0.120.js');
+  document.head.appendChild(script);
+}

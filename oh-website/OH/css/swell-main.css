@@ -1,0 +1,206 @@
+body {
+    margin: 0;
+}
+#swell-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: .5;
+    z-index: 2147483645 !important;
+}
+
+#swell-popup {
+    display: none;
+    position: fixed;
+    width: 540px;
+    height: 400px;
+    font-family: sans-serif;
+    font-size: 16px;
+    border: 0;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    background-color: #fff;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.5);
+    z-index: 2147483647 !important; 
+    color: black;
+    max-width: inherit;
+}
+
+#swell-rewards-popup {
+    display: none;
+    position: fixed;
+    width: 866px;
+    height: 700px;
+    font-family: "Open Sans";
+    font-size: 16px;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    background-color: #fff;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.5);
+    z-index: 2147483646 !important;
+    opacity: 1
+}
+
+#swell-popup-error-container {
+    font-weight: 700;
+    border: 1px solid #000;
+    background-color: rgba(245, 245, 245, 1);
+    display: none;
+    color: #a94442;
+    z-index: 2147483647;
+    padding: 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 5px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-top: 0
+}
+
+#swell-popup-items-container {
+    position: relative
+}
+
+#swell-popup-close {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 7px;
+    right: 10px;
+    text-align: center;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    z-index: 999999999999999;
+}
+
+#swell-popup-close-x {
+    width: 100%;
+    margin: auto;
+    line-height: 20px !important;
+    vertical-align: middle;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 22px;
+    font-weight: 300;
+    text-align: center
+}
+#swell-popup-close-x i{
+    font-size: 16px;
+    line-height: 22px;
+}
+.swell-popup-item-wrapper {
+    line-height: normal;
+    box-sizing: content-box !important;
+    position: absolute
+}
+
+.swell-popup-item {
+    line-height: normal;
+    box-sizing: content-box !important;
+    position: relative;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.swell-text-item {
+    background-color: transparent
+}
+
+.swell-tab {
+    position: fixed;
+    z-index: 2147483644
+}
+
+.swell-loader,
+.swell-loader:before,
+.swell-loader:after {
+    background: #fff;
+    -webkit-animation: swell-loader-1 1s infinite ease-in-out;
+    animation: swell-loader-1 1s infinite ease-in-out;
+    width: 1em;
+    height: 4em
+}
+
+.swell-loader:before,
+.swell-loader:after {
+    position: absolute;
+    top: 0;
+    content: ''
+}
+
+.swell-loader:before {
+    left: -1.5em;
+    -webkit-animation-delay: -.32s;
+    animation-delay: -.32s
+}
+
+.swell-loader {
+    text-indent: -9999em;
+    margin: 0 auto;
+    position: relative;
+    font-size: 5px;
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-animation-delay: -.16s;
+    animation-delay: -.16s
+}
+
+.swell-loader:after {
+    left: 1.5em
+}
+
+@-webkit-keyframes swell-loader-1 {
+    0%,
+    80%,
+    100% {
+        box-shadow: 0 0 #fff;
+        height: 4em
+    }
+    40% {
+        box-shadow: 0 -2em #fff;
+        height: 5em
+    }
+}
+
+@keyframes swell-loader-1 {
+    0%,
+    80%,
+    100% {
+        box-shadow: 0 0 #fff;
+        height: 4em
+    }
+    40% {
+        box-shadow: 0 -2em #fff;
+        height: 5em
+    }
+}
+.swell-standalone-modal .swell-modal .modal-body { background-color: white; color: black; }
+.swell-standalone-modal .swell-modal .modal-header { color: white; }
+.swell-standalone-modal .swell-modal .modal-title { text-align: center; }
+.swell-standalone-modal .swell-modal .modal-header .close { background-image: none; position: absolute; top: 0px; right: 10px; color: white; font-size: 45px; font-weight: 100;opacity: 1; cursor: pointer; }
+
+.swell-embedded-popup { position: relative; margin: 0 auto; max-width: inherit; } 
+.swell-embedded-popup #swell-sidebar { position: static; }
+.swell-embedded-popup #swell-popup-close { display: none; }
+
+#swell-bootstrap .rewards-templete h1,
+#swell-bootstrap .rewards-templete h2,
+#swell-bootstrap .rewards-templete h3,
+#swell-bootstrap .rewards-templete h4,
+#swell-bootstrap .rewards-templete h5,
+#swell-bootstrap .rewards-templete h6 {
+  padding: 0px !important;
+  font-style: normal;
+}

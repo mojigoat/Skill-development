@@ -1,0 +1,78 @@
+@font-face {
+    font-family: Oswald;
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+    src: url("https://fonts.shopifycdn.com/oswald/oswald_n7.f71e68b857a7b8128a7629452b9c6bf9468356a7.woff2?h1=ZzJlc3BvcnRzLmNvbQ&h2=ZzJlc3BvcnRzLmFjY291bnQubXlzaG9waWZ5LmNvbQ&hmac=e7d0ad60a0082ea830a4d22ec0a42ab5efada2453d05b8b255eff3f0c1255c12") format("woff2"),
+         url("https://fonts.shopifycdn.com/oswald/oswald_n7.2767cc6e7cfc91284caa2c06eb07eca21a27681e.woff?h1=ZzJlc3BvcnRzLmNvbQ&h2=ZzJlc3BvcnRzLmFjY291bnQubXlzaG9waWZ5LmNvbQ&hmac=10a79ed2609a6fa41067cbfc4cdaeb2810afaa9a0dc37b7d817f129812f07d5b") format("woff");
+  }
+  
+    @font-face {
+    font-family: "Roboto Condensed";
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    src: url("https://fonts.shopifycdn.com/roboto_condensed/robotocondensed_n4.901867ac1fae62a138ed9ec7898623d714425105.woff2?h1=ZzJlc3BvcnRzLmNvbQ&h2=ZzJlc3BvcnRzLmFjY291bnQubXlzaG9waWZ5LmNvbQ&hmac=e8bcab2d3460ef14a5026d200fa012c7e134f2566b7722339d88e72c91edc132") format("woff2"),
+         url("https://fonts.shopifycdn.com/roboto_condensed/robotocondensed_n4.c3228efde738d250ea3586f81d19645b192589ab.woff?h1=ZzJlc3BvcnRzLmNvbQ&h2=ZzJlc3BvcnRzLmFjY291bnQubXlzaG9waWZ5LmNvbQ&hmac=8d0f70b32157a6c6e96f39bd5ba8d0d901c85608010badafa37d5818e38ff87a") format("woff");
+  }
+  
+  @font-face {
+    font-family: Oswald;
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    src: url("https://fonts.shopifycdn.com/oswald/oswald_n4.a5ee385bde39969d807f7f1297bf51d73fbf3c1e.woff2?h1=ZzJlc3BvcnRzLmNvbQ&h2=ZzJlc3BvcnRzLmFjY291bnQubXlzaG9waWZ5LmNvbQ&hmac=334e00b13c15e6c4470088767f781af00451f754a0529e79c1a38094e14f2258") format("woff2"),
+         url("https://fonts.shopifycdn.com/oswald/oswald_n4.8f3e284746fbc2d29e34993609c51fdc432b0b24.woff?h1=ZzJlc3BvcnRzLmNvbQ&h2=ZzJlc3BvcnRzLmFjY291bnQubXlzaG9waWZ5LmNvbQ&hmac=60489763fb3debc28e74d6bc2e89b196d27003db938030ebb23c6fed5602a61f") format("woff");
+  }
+  
+  
+    @font-face {
+    font-family: "Roboto Condensed";
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+    src: url("https://fonts.shopifycdn.com/roboto_condensed/robotocondensed_n7.a8dcc495520a7cc0e796688956d83e7a5274e247.woff2?h1=ZzJlc3BvcnRzLmNvbQ&h2=ZzJlc3BvcnRzLmFjY291bnQubXlzaG9waWZ5LmNvbQ&hmac=2aef42fe31f245842854329aa47cda4347d1f018a241dcca26abf30299a01d53") format("woff2"),
+         url("https://fonts.shopifycdn.com/roboto_condensed/robotocondensed_n7.42ef03157aa2a002e25bb3dfa99c3e6719fa428a.woff?h1=ZzJlc3BvcnRzLmNvbQ&h2=ZzJlc3BvcnRzLmFjY291bnQubXlzaG9waWZ5LmNvbQ&hmac=ca0f3f2a420eb76963e2711014d5bee7c03368fe9f22c39faa0c0b96db390987") format("woff");
+  }
+  
+    
+    @font-face {
+      font-family: "Font Awesome 5 Brands";
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url( //cdn.shopify.com/s/files/1/0548/8554/8183/t/49/assets/fa-brands-400.woff?v=104125041428286763131623875504) format('woff');
+    }
+  
+    @font-face {
+      font-family: "Font Awesome 5 Pro";
+      font-style: normal;
+      font-weight: 300;
+      font-display: swap;
+      src: url( //cdn.shopify.com/s/files/1/0548/8554/8183/t/49/assets/fa-light-300.woff?v=73682965483463491011623875505) format('woff');
+      }
+      @font-face {
+        font-family: "Font Awesome 5 Pro";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url( //cdn.shopify.com/s/files/1/0548/8554/8183/t/49/assets/fa-regular-400.woff?v=105536427866719348091623875505) format('woff');
+      }
+      @font-face {
+        font-family: 'g2-icons';
+        src:
+          url("//cdn.shopify.com/s/files/1/0548/8554/8183/t/49/assets/g2-icons.ttf?v=148022621577622587081623875507") format('truetype');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+      }
+    :root {
+      --color-accent: #dd1c21;
+      --color-body-text: #000000;
+  
+      --font-heading: Oswald, sans-serif;
+      --font-body: "Roboto Condensed", sans-serif;
+      --font-body-weight: 400;
+      --font-body-style: normal;
+      --font-body-bold-weight: 700;
+    }
