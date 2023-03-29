@@ -57,7 +57,10 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff; }
+  background-image: url("/images/background.png");
+  background-color: #fff;
+
+}
 
 [tabindex="-1"]:focus {
   outline: 0 !important; }
@@ -1334,7 +1337,8 @@ pre {
 .table {
   width: 100%;
   margin-bottom: 1rem;
-  color: #212529; }
+  color: #212529; 
+}
   .table th,
   .table td {
     padding: 0.75rem;
@@ -8137,8 +8141,11 @@ body {
   font-size: 16px;
   line-height: 1.8;
   font-weight: normal;
-  background: #f8f9fd;
-  color: gray; }
+  background-image: url("/images/background.png");
+  background-size: cover;
+  /*  background: #f8f9fd;*/
+  color: gray;
+}
 
 a {
   -webkit-transition: .3s all ease;
@@ -8162,7 +8169,7 @@ h1, h2, h3, h4, h5,
   background: #1089ff !important; }
 
 .ftco-section {
-  padding: 7em 0; }
+  padding: 1%; }
 
 .ftco-no-pt {
   padding-top: 0; }
@@ -8188,21 +8195,34 @@ h1, h2, h3, h4, h5,
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
-  -webkit-box-shadow: 0px 5px 12px -12px rgba(0, 0, 0, 0.29);
-  -moz-box-shadow: 0px 5px 12px -12px rgba(0, 0, 0, 0.29);
-  box-shadow: 0px 5px 12px -12px rgba(0, 0, 0, 0.29); }
+  -webkit-box-shadow: 0px 5px 20px 3px rgb(0 0 0 / 45%);
+  -moz-box-shadow: 0px 5px 20px 3px rgb(0 0 0 / 45%);
+  box-shadow: 0px 5px 20px 3px rgb(0 0 0 / 45%);
+  table-layout: fixed;
+}
   @media (prefers-reduced-motion: reduce) {
     .table {
       -webkit-transition: none;
       -o-transition: none;
       transition: none; } }
-  .table thead th {
-    border: none;
-    padding: 30px;
-    font-size: 14px;
-    color: #000;
-    border-bottom: 2px solid #ececec;
-    background: #fff; }
+.table thead th {
+  border: none;
+  padding: 30px;
+  font-size: 95%;
+  color: #fff;
+  border-bottom: 2px solid #ececec;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, rgba(43,43,43,1) 0%, rgba(54,54,54,1) 50%, rgba(43,43,43,1) 100%);
+  font-family: UniSanThin;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+@font-face {
+  font-family: UniSanThin;
+  src: url('/fonts/Uni Sans Thin.otf');
+}
+
   .table tbody tr {
     margin-bottom: 10px;
     cursor: pointer;
@@ -8264,4 +8284,125 @@ h1, h2, h3, h4, h5,
 
 .activeStatus{
   width: 20px;
+}
+.mainLogoContainer {
+  display: flex;
+  justify-content: center;
+  padding-top: 2%;
+}
+
+.mainLogo {
+  width: 30%;
+}
+
+.toolBar {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  min-height: 150px;
+}
+
+.RegionBtn {
+  position: relative;
+  background: #444;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: none;
+  letter-spacing: 0.1rem;
+  font-size: 1rem;
+  padding: 1rem 3rem;
+  transition: 0.2s;
+}
+
+  .RegionBtn:hover {
+    letter-spacing: 0.2rem;
+    padding: 1.1rem 3.1rem;
+    background: var(--clr);
+    color: var(--clr);
+    /* box-shadow: 0 0 35px var(--clr); */
+    animation: box 3s infinite;
+  }
+
+  .RegionBtn::before {
+    content: "";
+    position: absolute;
+    inset: 2px;
+    background: #272822;
+  }
+
+  .RegionBtn span {
+    position: relative;
+    z-index: 1;
+  }
+
+  .RegionBtn i {
+    position: absolute;
+    inset: 0;
+    display: block;
+  }
+
+    .RegionBtn i::before {
+      content: "";
+      position: absolute;
+      width: 10px;
+      height: 2px;
+      left: 80%;
+      top: -2px;
+      border: 2px solid var(--clr);
+      background: #272822;
+      transition: 0.2s;
+    }
+
+  .RegionBtn:hover i::before {
+    width: 15px;
+    left: 20%;
+    animation: move 3s infinite;
+  }
+
+  .RegionBtn i::after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 2px;
+    left: 20%;
+    bottom: -2px;
+    border: 2px solid var(--clr);
+    background: #272822;
+    transition: 0.2s;
+  }
+
+  .RegionBtn:hover i::after {
+    width: 15px;
+    left: 80%;
+    animation: move 3s infinite;
+  }
+
+@keyframes move {
+  0% {
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translateX(5px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes box {
+  0% {
+    box-shadow: #27272c;
+  }
+
+  50% {
+    box-shadow: 0 0 25px var(--clr);
+  }
+
+  100% {
+    box-shadow: #27272c;
+  }
 }
