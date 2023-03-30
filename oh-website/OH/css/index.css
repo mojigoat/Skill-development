@@ -1860,7 +1860,7 @@
     transition:all .2s;
     -webkit-clip-path:polygon(35% 0,100% 0,100% 100%,0 100%,17% 50%);
     clip-path:polygon(35% 0,100% 0,100% 100%,0 100%,17% 50%);
-    background-color:#dd1c21;
+    background-color:#FF5F00;
     z-index:2
 }
 .hsld__next-thumb:hover:after{
