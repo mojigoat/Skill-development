@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "H1SrkXrMq7JgnQ7LspUtXjOgkadihWfFgsLNYr8OB9dc9E9q/Qd1YLyglxySDlZIhJo0IrHAzo/ebcpmVvo8fA==",
+  "dgSpecHash": "39h09Gves1xLF9TNnfEILi/h2IGUIAiWvinTyaFr6DUvRkvxdmrBeaNC/DpJDk4M5leWtcbxO3AuFnDzmxL7Ew==",
   "success": true,
-  "projectFilePath": "D:\\Github\\Skill-development\\ZypeEsportsPlatform\\EsportTeamDir\\DataAccessLibrary\\DataAccessLibrary.csproj",
+  "projectFilePath": "C:\\Users\\kdsga\\OneDrive\\Documents\\Github\\mojigoat\\Skill-development\\ZypeEsportsPlatform\\EsportTeamDir\\DataAccessLibrary\\DataAccessLibrary.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kdsga\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
     "C:\\Users\\kdsga\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",

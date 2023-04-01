@@ -8,10 +8,10 @@
 
         @if (File.Exists($"{Environment.CurrentDirectory}/wwwroot/{playerImgURL}"))
         {
-            <img class="playercardimg" src=@playerImgURL>
+            <img class="@(CaptainRoleCss) playercardimg" src=@playerImgURL>
         }else
         {
-            <img class="playercardimg" src=@defaultImgURL>
+            <img class="@(CaptainRoleCss) playercardimg" src=@defaultImgURL>
         }
     </a>
 
@@ -81,4 +81,7 @@
 
     [Parameter]
     public string GameRole { get; set; }
+
+    [Parameter]
+    public string CaptainRoleCss { get; set; }
 }

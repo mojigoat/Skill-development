@@ -617,11 +617,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Github\\Skill-development\\ZypeEsportsPlatform\\EsportTeamDir\\EsportTeamDir\\EsportTeamDir.csproj",
+      "projectUniqueName": "C:\\Users\\kdsga\\OneDrive\\Documents\\Github\\mojigoat\\Skill-development\\ZypeEsportsPlatform\\EsportTeamDir\\EsportTeamDir\\EsportTeamDir.csproj",
       "projectName": "EsportTeamDir",
-      "projectPath": "D:\\Github\\Skill-development\\ZypeEsportsPlatform\\EsportTeamDir\\EsportTeamDir\\EsportTeamDir.csproj",
+      "projectPath": "C:\\Users\\kdsga\\OneDrive\\Documents\\Github\\mojigoat\\Skill-development\\ZypeEsportsPlatform\\EsportTeamDir\\EsportTeamDir\\EsportTeamDir.csproj",
       "packagesPath": "C:\\Users\\kdsga\\.nuget\\packages\\",
-      "outputPath": "D:\\Github\\Skill-development\\ZypeEsportsPlatform\\EsportTeamDir\\EsportTeamDir\\obj\\",
+      "outputPath": "C:\\Users\\kdsga\\OneDrive\\Documents\\Github\\mojigoat\\Skill-development\\ZypeEsportsPlatform\\EsportTeamDir\\EsportTeamDir\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -643,8 +643,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\Github\\Skill-development\\ZypeEsportsPlatform\\EsportTeamDir\\DataAccessLibrary\\DataAccessLibrary.csproj": {
-              "projectPath": "D:\\Github\\Skill-development\\ZypeEsportsPlatform\\EsportTeamDir\\DataAccessLibrary\\DataAccessLibrary.csproj"
+            "C:\\Users\\kdsga\\OneDrive\\Documents\\Github\\mojigoat\\Skill-development\\ZypeEsportsPlatform\\EsportTeamDir\\DataAccessLibrary\\DataAccessLibrary.csproj": {
+              "projectPath": "C:\\Users\\kdsga\\OneDrive\\Documents\\Github\\mojigoat\\Skill-development\\ZypeEsportsPlatform\\EsportTeamDir\\DataAccessLibrary\\DataAccessLibrary.csproj"
             }
           }
         }
@@ -683,7 +683,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

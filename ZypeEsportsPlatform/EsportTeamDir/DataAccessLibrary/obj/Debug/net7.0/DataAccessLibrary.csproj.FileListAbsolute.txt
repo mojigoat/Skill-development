@@ -10,3 +10,15 @@ D:\Github\Skill-development\ZypeEsportsPlatform\EsportTeamDir\DataAccessLibrary\
 D:\Github\Skill-development\ZypeEsportsPlatform\EsportTeamDir\DataAccessLibrary\obj\Debug\net7.0\refint\DataAccessLibrary.dll
 D:\Github\Skill-development\ZypeEsportsPlatform\EsportTeamDir\DataAccessLibrary\obj\Debug\net7.0\DataAccessLibrary.pdb
 D:\Github\Skill-development\ZypeEsportsPlatform\EsportTeamDir\DataAccessLibrary\obj\Debug\net7.0\ref\DataAccessLibrary.dll
+C:\Users\kdsga\OneDrive\Documents\Github\mojigoat\Skill-development\ZypeEsportsPlatform\EsportTeamDir\DataAccessLibrary\bin\Debug\net7.0\DataAccessLibrary.deps.json
+C:\Users\kdsga\OneDrive\Documents\Github\mojigoat\Skill-development\ZypeEsportsPlatform\EsportTeamDir\DataAccessLibrary\bin\Debug\net7.0\DataAccessLibrary.dll
+C:\Users\kdsga\OneDrive\Documents\Github\mojigoat\Skill-development\ZypeEsportsPlatform\EsportTeamDir\DataAccessLibrary\bin\Debug\net7.0\DataAccessLibrary.pdb
+C:\Users\kdsga\OneDrive\Documents\Github\mojigoat\Skill-development\ZypeEsportsPlatform\EsportTeamDir\DataAccessLibrary\obj\Debug\net7.0\DataAccessLibrary.csproj.AssemblyReference.cache
+C:\Users\kdsga\OneDrive\Documents\Github\mojigoat\Skill-development\ZypeEsportsPlatform\EsportTeamDir\DataAccessLibrary\obj\Debug\net7.0\DataAccessLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kdsga\OneDrive\Documents\Github\mojigoat\Skill-development\ZypeEsportsPlatform\EsportTeamDir\DataAccessLibrary\obj\Debug\net7.0\DataAccessLibrary.AssemblyInfoInputs.cache
+C:\Users\kdsga\OneDrive\Documents\Github\mojigoat\Skill-development\ZypeEsportsPlatform\EsportTeamDir\DataAccessLibrary\obj\Debug\net7.0\DataAccessLibrary.AssemblyInfo.cs
+C:\Users\kdsga\OneDrive\Documents\Github\mojigoat\Skill-development\ZypeEsportsPlatform\EsportTeamDir\DataAccessLibrary\obj\Debug\net7.0\DataAccessLibrary.csproj.CoreCompileInputs.cache
+C:\Users\kdsga\OneDrive\Documents\Github\mojigoat\Skill-development\ZypeEsportsPlatform\EsportTeamDir\DataAccessLibrary\obj\Debug\net7.0\DataAccessLibrary.dll
+C:\Users\kdsga\OneDrive\Documents\Github\mojigoat\Skill-development\ZypeEsportsPlatform\EsportTeamDir\DataAccessLibrary\obj\Debug\net7.0\refint\DataAccessLibrary.dll
+C:\Users\kdsga\OneDrive\Documents\Github\mojigoat\Skill-development\ZypeEsportsPlatform\EsportTeamDir\DataAccessLibrary\obj\Debug\net7.0\DataAccessLibrary.pdb
+C:\Users\kdsga\OneDrive\Documents\Github\mojigoat\Skill-development\ZypeEsportsPlatform\EsportTeamDir\DataAccessLibrary\obj\Debug\net7.0\ref\DataAccessLibrary.dll

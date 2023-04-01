@@ -1,0 +1,17 @@
+C:\Users\kdsga\OneDrive\Documents\Github\mojigoat\Skill-development\ZypeEsportsPlatform\EUT\EsportsUpdateTool\bin\Debug\net7.0-windows\EsportsUpdateTool.exe
+C:\Users\kdsga\OneDrive\Documents\Github\mojigoat\Skill-development\ZypeEsportsPlatform\EUT\EsportsUpdateTool\bin\Debug\net7.0-windows\EsportsUpdateTool.deps.json
+C:\Users\kdsga\OneDrive\Documents\Github\mojigoat\Skill-development\ZypeEsportsPlatform\EUT\EsportsUpdateTool\bin\Debug\net7.0-windows\EsportsUpdateTool.runtimeconfig.json
+C:\Users\kdsga\OneDrive\Documents\Github\mojigoat\Skill-development\ZypeEsportsPlatform\EUT\EsportsUpdateTool\bin\Debug\net7.0-windows\EsportsUpdateTool.dll
+C:\Users\kdsga\OneDrive\Documents\Github\mojigoat\Skill-development\ZypeEsportsPlatform\EUT\EsportsUpdateTool\bin\Debug\net7.0-windows\EsportsUpdateTool.pdb
+C:\Users\kdsga\OneDrive\Documents\Github\mojigoat\Skill-development\ZypeEsportsPlatform\EUT\EsportsUpdateTool\obj\Debug\net7.0-windows\EsportsUpdateTool.csproj.AssemblyReference.cache
+C:\Users\kdsga\OneDrive\Documents\Github\mojigoat\Skill-development\ZypeEsportsPlatform\EUT\EsportsUpdateTool\obj\Debug\net7.0-windows\EsportsUpdateTool.Form1.resources
+C:\Users\kdsga\OneDrive\Documents\Github\mojigoat\Skill-development\ZypeEsportsPlatform\EUT\EsportsUpdateTool\obj\Debug\net7.0-windows\EsportsUpdateTool.csproj.GenerateResource.cache
+C:\Users\kdsga\OneDrive\Documents\Github\mojigoat\Skill-development\ZypeEsportsPlatform\EUT\EsportsUpdateTool\obj\Debug\net7.0-windows\EsportsUpdateTool.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kdsga\OneDrive\Documents\Github\mojigoat\Skill-development\ZypeEsportsPlatform\EUT\EsportsUpdateTool\obj\Debug\net7.0-windows\EsportsUpdateTool.AssemblyInfoInputs.cache
+C:\Users\kdsga\OneDrive\Documents\Github\mojigoat\Skill-development\ZypeEsportsPlatform\EUT\EsportsUpdateTool\obj\Debug\net7.0-windows\EsportsUpdateTool.AssemblyInfo.cs
+C:\Users\kdsga\OneDrive\Documents\Github\mojigoat\Skill-development\ZypeEsportsPlatform\EUT\EsportsUpdateTool\obj\Debug\net7.0-windows\EsportsUpdateTool.csproj.CoreCompileInputs.cache
+C:\Users\kdsga\OneDrive\Documents\Github\mojigoat\Skill-development\ZypeEsportsPlatform\EUT\EsportsUpdateTool\obj\Debug\net7.0-windows\EsportsUpdateTool.dll
+C:\Users\kdsga\OneDrive\Documents\Github\mojigoat\Skill-development\ZypeEsportsPlatform\EUT\EsportsUpdateTool\obj\Debug\net7.0-windows\refint\EsportsUpdateTool.dll
+C:\Users\kdsga\OneDrive\Documents\Github\mojigoat\Skill-development\ZypeEsportsPlatform\EUT\EsportsUpdateTool\obj\Debug\net7.0-windows\EsportsUpdateTool.pdb
+C:\Users\kdsga\OneDrive\Documents\Github\mojigoat\Skill-development\ZypeEsportsPlatform\EUT\EsportsUpdateTool\obj\Debug\net7.0-windows\EsportsUpdateTool.genruntimeconfig.cache
+C:\Users\kdsga\OneDrive\Documents\Github\mojigoat\Skill-development\ZypeEsportsPlatform\EUT\EsportsUpdateTool\obj\Debug\net7.0-windows\ref\EsportsUpdateTool.dll
