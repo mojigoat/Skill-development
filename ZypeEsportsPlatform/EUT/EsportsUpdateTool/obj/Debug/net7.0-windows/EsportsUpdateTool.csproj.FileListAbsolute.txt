@@ -15,3 +15,10 @@ C:\Users\kdsga\OneDrive\Documents\Github\mojigoat\Skill-development\ZypeEsportsP
 C:\Users\kdsga\OneDrive\Documents\Github\mojigoat\Skill-development\ZypeEsportsPlatform\EUT\EsportsUpdateTool\obj\Debug\net7.0-windows\EsportsUpdateTool.pdb
 C:\Users\kdsga\OneDrive\Documents\Github\mojigoat\Skill-development\ZypeEsportsPlatform\EUT\EsportsUpdateTool\obj\Debug\net7.0-windows\EsportsUpdateTool.genruntimeconfig.cache
 C:\Users\kdsga\OneDrive\Documents\Github\mojigoat\Skill-development\ZypeEsportsPlatform\EUT\EsportsUpdateTool\obj\Debug\net7.0-windows\ref\EsportsUpdateTool.dll
+C:\Users\kdsga\OneDrive\Documents\Github\mojigoat\Skill-development\ZypeEsportsPlatform\EUT\EsportsUpdateTool\bin\Debug\net7.0-windows\System.Data.SqlClient.dll
+C:\Users\kdsga\OneDrive\Documents\Github\mojigoat\Skill-development\ZypeEsportsPlatform\EUT\EsportsUpdateTool\bin\Debug\net7.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\kdsga\OneDrive\Documents\Github\mojigoat\Skill-development\ZypeEsportsPlatform\EUT\EsportsUpdateTool\bin\Debug\net7.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\kdsga\OneDrive\Documents\Github\mojigoat\Skill-development\ZypeEsportsPlatform\EUT\EsportsUpdateTool\bin\Debug\net7.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\kdsga\OneDrive\Documents\Github\mojigoat\Skill-development\ZypeEsportsPlatform\EUT\EsportsUpdateTool\bin\Debug\net7.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\kdsga\OneDrive\Documents\Github\mojigoat\Skill-development\ZypeEsportsPlatform\EUT\EsportsUpdateTool\bin\Debug\net7.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\kdsga\OneDrive\Documents\Github\mojigoat\Skill-development\ZypeEsportsPlatform\EUT\EsportsUpdateTool\obj\Debug\net7.0-windows\EsportsUpdateTool.csproj.CopyComplete
