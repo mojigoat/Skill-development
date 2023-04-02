@@ -1,0 +1,11 @@
+C:\Users\kdsga\OneDrive\Documents\Published\Tools\EUT\EsportsUpdateTool.exe
+C:\Users\kdsga\OneDrive\Documents\Published\Tools\EUT\EsportsUpdateTool.dll
+C:\Users\kdsga\OneDrive\Documents\Published\Tools\EUT\EsportsUpdateTool.deps.json
+C:\Users\kdsga\OneDrive\Documents\Published\Tools\EUT\EsportsUpdateTool.runtimeconfig.json
+C:\Users\kdsga\OneDrive\Documents\Published\Tools\EUT\EsportsUpdateTool.pdb
+C:\Users\kdsga\OneDrive\Documents\Published\Tools\EUT\System.Data.SqlClient.dll
+C:\Users\kdsga\OneDrive\Documents\Published\Tools\EUT\runtimes\win-arm64\native\sni.dll
+C:\Users\kdsga\OneDrive\Documents\Published\Tools\EUT\runtimes\win-x64\native\sni.dll
+C:\Users\kdsga\OneDrive\Documents\Published\Tools\EUT\runtimes\win-x86\native\sni.dll
+C:\Users\kdsga\OneDrive\Documents\Published\Tools\EUT\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\kdsga\OneDrive\Documents\Published\Tools\EUT\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

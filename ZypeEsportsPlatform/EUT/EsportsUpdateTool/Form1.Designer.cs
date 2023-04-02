@@ -30,6 +30,7 @@
         {
             TeamsPlayersTab = new TabControl();
             TeamTab = new TabPage();
+            TeamRefreshDataButton = new Button();
             TeamopggBox = new TextBox();
             label22 = new Label();
             label21 = new Label();
@@ -59,6 +60,7 @@
             TeamEditButton = new Button();
             TeamCLearFormButton = new Button();
             tabPage2 = new TabPage();
+            PlayerRefreshDataButton = new Button();
             PlayerTeamComboBox = new ComboBox();
             PlayerDOBCalender = new MonthCalendar();
             label11 = new Label();
@@ -105,6 +107,7 @@
             // 
             // TeamTab
             // 
+            TeamTab.Controls.Add(TeamRefreshDataButton);
             TeamTab.Controls.Add(TeamopggBox);
             TeamTab.Controls.Add(label22);
             TeamTab.Controls.Add(label21);
@@ -140,6 +143,16 @@
             TeamTab.TabIndex = 0;
             TeamTab.Text = "Teams";
             TeamTab.UseVisualStyleBackColor = true;
+            // 
+            // TeamRefreshDataButton
+            // 
+            TeamRefreshDataButton.Location = new Point(6, 897);
+            TeamRefreshDataButton.Name = "TeamRefreshDataButton";
+            TeamRefreshDataButton.Size = new Size(247, 42);
+            TeamRefreshDataButton.TabIndex = 28;
+            TeamRefreshDataButton.Text = "Refresh Data";
+            TeamRefreshDataButton.UseVisualStyleBackColor = true;
+            TeamRefreshDataButton.Click += TeamRefreshDataButton_Click;
             // 
             // TeamopggBox
             // 
@@ -376,6 +389,7 @@
             TeamEditButton.TabIndex = 1;
             TeamEditButton.Text = "Edit";
             TeamEditButton.UseVisualStyleBackColor = true;
+            TeamEditButton.Click += TeamEditButton_Click;
             // 
             // TeamCLearFormButton
             // 
@@ -389,6 +403,7 @@
             // 
             // tabPage2
             // 
+            tabPage2.Controls.Add(PlayerRefreshDataButton);
             tabPage2.Controls.Add(PlayerTeamComboBox);
             tabPage2.Controls.Add(PlayerDOBCalender);
             tabPage2.Controls.Add(label11);
@@ -422,6 +437,16 @@
             tabPage2.TabIndex = 1;
             tabPage2.Text = "Players";
             tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // PlayerRefreshDataButton
+            // 
+            PlayerRefreshDataButton.Location = new Point(8, 897);
+            PlayerRefreshDataButton.Name = "PlayerRefreshDataButton";
+            PlayerRefreshDataButton.Size = new Size(247, 42);
+            PlayerRefreshDataButton.TabIndex = 29;
+            PlayerRefreshDataButton.Text = "Refresh Data";
+            PlayerRefreshDataButton.UseVisualStyleBackColor = true;
+            PlayerRefreshDataButton.Click += PlayerRefreshDataButton_Click;
             // 
             // PlayerTeamComboBox
             // 
@@ -731,5 +756,7 @@
         private Label label13;
         private TextBox TeamNameBox;
         private Label label12;
+        private Button TeamRefreshDataButton;
+        private Button PlayerRefreshDataButton;
     }
 }

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>EsportsUpdateTool</id>
+    <version>1.0.0</version>
+    <authors>EsportsUpdateTool</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net7.0-windows7.0">
+        <dependency id="System.Data.SqlClient" version="4.8.5" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net7.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WindowsForms" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="C:\Users\kdsga\OneDrive\Documents\Github\mojigoat\Skill-development\ZypeEsportsPlatform\EUT\EsportsUpdateTool\bin\Debug\net7.0-windows\EsportsUpdateTool.runtimeconfig.json" target="lib\net7.0-windows7.0\EsportsUpdateTool.runtimeconfig.json" />
+    <file src="C:\Users\kdsga\OneDrive\Documents\Github\mojigoat\Skill-development\ZypeEsportsPlatform\EUT\EsportsUpdateTool\bin\Debug\net7.0-windows\EsportsUpdateTool.dll" target="lib\net7.0-windows7.0\EsportsUpdateTool.dll" />
+  </files>
+</package>

@@ -5,6 +5,8 @@ using static System.Runtime.InteropServices.JavaScript.JSType;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 using System.DirectoryServices.ActiveDirectory;
 using System.Data;
+using System;
+using System.Windows.Forms;
 
 namespace EsportsUpdateTool
 {
@@ -237,6 +239,32 @@ namespace EsportsUpdateTool
             MessageBox.Show("Successfully Updated");
         }
 
+        private void UpdateTeam()
+        {
+            SqlConnection con = new SqlConnection("Server=tcp:zypherrbox.database.windows.net,1433;Initial Catalog=ZypherrBoxDB;Persist Security Info=False;User ID=CloudSA0732f4ff;Password=Scooby123doo!@#;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
+
+            con.Open();
+
+            SqlCommand cmd = new SqlCommand("UPDATE dbo.LeagueOfLegendsTeams SET Organisation = @Organisation, TeamName = @TeamName, RepresentingCountry = @Country, TeamManager = @TeamManager, ManagerDiscord = @ManagerDiscord, ManagerEmailAddress = @ManagerEmailAddress, OPGGLink = @OPGGLink, TwitterLink = @TwitterLink, WebsiteLink = @WebsiteLink, TeamTag = @TeamTag WHERE TeamID = @TeamID;", con);
+
+            cmd.Parameters.AddWithValue("@Organisation", TeamOrgBox.Text);
+            cmd.Parameters.AddWithValue("@TeamName", TeamNameBox.Text);
+            cmd.Parameters.AddWithValue("@Country", TeamCountryBox.Text);
+            cmd.Parameters.AddWithValue("@TeamManager", TeamManagerTagBox.Text);
+            cmd.Parameters.AddWithValue("@ManagerDiscord", TeamManagerDiscordBox.Text);
+            cmd.Parameters.AddWithValue("@ManagerEmailAddress", TeamManagerEmailBox.Text);
+            cmd.Parameters.AddWithValue("@OPGGLink", TeamopggBox.Text);
+            cmd.Parameters.AddWithValue("@TwitterLink", TeamTwitterBox.Text);
+            cmd.Parameters.AddWithValue("@WebsiteLink", TeamWebsiteBox.Text);
+            cmd.Parameters.AddWithValue("@TeamTag", TeamTagBox.Text);
+            cmd.Parameters.AddWithValue("@TeamID", (int)TeamDataGrid.SelectedRows[0].Cells[0].Value);
+
+            cmd.Connection = con;
+            cmd.ExecuteNonQuery();
+            con.Close();
+            MessageBox.Show("Successfully Updated");
+        }
+
         private void PlayerDataGrid_MouseDoubleClick(object sender, MouseEventArgs e)
         {
             int teamID = (int)PlayerDataGrid.SelectedRows[0].Cells[12].Value;
@@ -303,6 +331,23 @@ namespace EsportsUpdateTool
         private void TeamCLearFormButton_Click(object sender, EventArgs e)
         {
             ClearTeamForm();
+        }
+
+        private void TeamEditButton_Click(object sender, EventArgs e)
+        {
+            UpdateTeam();
+        }
+
+        private void TeamRefreshDataButton_Click(object sender, EventArgs e)
+        {
+            TeamDataGrid.DataSource = null;
+            LoadTeams();
+        }
+
+        private void PlayerRefreshDataButton_Click(object sender, EventArgs e)
+        {
+            PlayerDataGrid.DataSource = null;
+            LoadPlayers();
         }
     }
 }
