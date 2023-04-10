@@ -7,7 +7,7 @@ const askSiri = document.getElementById('AskSiriBtn')
 
 var callAStrangerCounter = 2;
 
-var stangers = ["083 382 8035", "067 977 7884"]
+var stangers = ["CHECK DISCORD DM - Number 1", "CHECK DISCORD DM - Number 2"]
 strangerNum = 0;
 
 callAStranger.addEventListener('click', () => {

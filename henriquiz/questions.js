@@ -37,14 +37,14 @@ const questions = [
     },
     {
       //4
-      question: 'What year did the "Friends" TV sitcom premier on NBC?',
+      question: 'What is the full name of the famous south african streamer, DarWeeZytv?',
       answers: [
-        { text: '1993', correct: false },
-        { text: '1994', correct: true },
-        { text: '1995', correct: false },
-        { text: '1996', correct: false },
-        { text: '1997', correct: false },
-        { text: '1998', correct: false }
+        { text: 'Harry Kane', correct: false },
+        { text: 'Dario Ferraro', correct: true },
+        { text: 'Paul-lee Wantakraka', correct: false },
+        { text: 'Dennis Dhuvraj', correct: false },
+        { text: 'Kylian Mbappe', correct: false },
+        { text: 'Alphonso Davies', correct: false }
       ]
     },
     {
@@ -205,14 +205,14 @@ const questions = [
     },
     {
       //18
-      question: 'What was the most popular TV show in 1994?',
+      question: 'What is the main ingriedent in the dish "Bombay Duck"?',
       answers: [
-        { text: 'Friends', correct: false },
-        { text: 'Seinfeld', correct: true },
-        { text: 'ER', correct: false },
-        { text: 'Frasier', correct: false },
-        { text: 'The Simpsons', correct: false },
-        { text: 'Law & Order', correct: false }
+        { text: 'Chicken', correct: false },
+        { text: 'Fish', correct: true },
+        { text: 'Duck', correct: false },
+        { text: 'Swan', correct: false },
+        { text: 'Beef', correct: false },
+        { text: 'Lamb', correct: false }
       ]
     },
     {
@@ -337,14 +337,14 @@ const questions = [
     },
     {
       //29
-      question: 'It was illegal for women to wear what in 19th century Florence?',
+      question: 'What Reptile Cant Stick Its Tongue Out?',
       answers: [
-        { text: 'Socks', correct: false },
-        { text: 'Buttons', correct: true },
-        { text: 'Braces', correct: false },
-        { text: 'Bonnets', correct: false },
-        { text: 'Underwear', correct: false },
-        { text: 'Floral Dresses', correct: false }
+        { text: 'Rhinoceros', correct: false },
+        { text: 'Crocodile', correct: true },
+        { text: 'hippopotamus', correct: false },
+        { text: 'Sloth', correct: false },
+        { text: 'Elephant', correct: false },
+        { text: 'Kangeroo', correct: false }
       ]
     },
     {
@@ -613,14 +613,14 @@ const questions = [
     },
     {
       //52
-      question: 'What was the total number of "Games Played", based on HericoM\'s 2022 Steam Replay results?',
+      question: 'In SQL,assuming the table/column names are spelt correctly, which query will throw a syntax error?',
       answers: [
-        { text: '56', correct: false },
-        { text: '72', correct: false },
-        { text: '81', correct: false },
-        { text: '69', correct: true },
-        { text: '44', correct: false },
-        { text: '101', correct: false }
+        { text: 'SELECT name, email FROM users;', correct: false },
+        { text: 'SELECT AVG(price) FROM products;', correct: false },
+        { text: 'SELECT COUNT(*) FROM orders;', correct: false },
+        { text: 'SELECT * customers WHERE name LIKE "J%";', correct: true },
+        { text: 'INSERT INTO employees (name) VALUES ("John Smith");', correct: false },
+        { text: 'SELECT * FROM t1 INNER JOIN t2 ON t1.c1 = t2.c2;', correct: false }
       ]
     },
     {
@@ -1081,14 +1081,14 @@ const questions = [
     },
     {
       //91
-      question: 'What was the original name of the now known jelly candy, "Gummy Bears"',
+      question: 'Who was the host, of the Afrikaans singing show, "Supersterre"?',
       answers: [
-        { text: 'Jumping Bears', correct: false },
-        { text: 'Candy Bears', correct: false },
-        { text: 'Dancing Bears', correct: true },
-        { text: 'Haribo Bears', correct: false },
-        { text: 'Wobbly Bobblies', correct: false },
-        { text: 'Wiggly Waggles', correct: false }
+        { text: 'Charlize Theron', correct: false },
+        { text: 'Katlego Maboe', correct: false },
+        { text: 'Patricia lewis', correct: true },
+        { text: 'Amore Bekker', correct: false },
+        { text: 'Robbie Wessels', correct: false },
+        { text: 'Karen Zoid', correct: false }
       ]
     },
     {
@@ -1129,14 +1129,14 @@ const questions = [
     },
     {
       //95
-      question: 'What does a "wether" describe when referencing a goat?',
+      question: 'What is Barbie\s full name?',
       answers: [
-        { text: 'A shaved goat', correct: false },
-        { text: 'A goat that controls the weather', correct: false },
-        { text: 'A baby goat', correct: false },
-        { text: 'A castrated goat', correct: true },
-        { text: 'A dehorned goat', correct: false },
-        { text: 'A elderly goat', correct: false }
+        { text: 'Barbie Ann Scott', correct: false },
+        { text: 'Summer Rae Williams', correct: false },
+        { text: 'Bernedette Frankie Knowles', correct: false },
+        { text: 'Barbara Millicent Robert', correct: true },
+        { text: 'Bernise Cassandra Davies', correct: false },
+        { text: 'Ruby Bell Andrews', correct: false }
       ]
     },
     {
@@ -1189,15 +1189,15 @@ const questions = [
     },
     {
       //100
-      question: 'What was the first question of this quiz?',
+      question: 'What is the real name of the Afrikaans singer, Bok van Blerk?',
       answers: [
-        { text: 'What does the acronym "SMH" stand for?', correct: false },
-        { text: 'Which continent is the country "Lebanon" apart of?', correct: false },
-        { text: 'What year did the "Friends" TV sitcom premier on NBC?', correct: false },
-        { text: 'When did world war II end?', correct: false },
-        { text: 'What is Joe Exotic a.k.a the Tiger King\'s real name?', correct: true },
-        { text: 'Who was the first president of Malawi?', correct: false }
-      ]
+        { text: 'Kurt Johan van Heerden', correct: false },
+        { text: 'Zander Tyler', correct: false },
+        { text: 'Pieter van Jaarsveld', correct: false },
+        { text: 'Francois Henning', correct: false },
+        { text: 'Louis Pepler', correct: true },
+        { text: 'Christoph Kotze', correct: false }
+      ],
     }
   ]
 
